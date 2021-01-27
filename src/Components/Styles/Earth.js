@@ -3,13 +3,13 @@ import earth from '../../Assets/earth.svg';
 
 const floatAnim = (angle) => keyframes`
 	0% {
-		transform: translate(0, -2%) rotate(${angle}deg);
+		transform: translate(0, -1%) rotate(${angle}deg);
 	}
 	50% {
-		transform: translate(0, 2%) rotate(${angle}deg);
+		transform: translate(0, 1%) rotate(${angle}deg);
 	}
 	100% {
-		transform: translate(0, -2%) rotate(${angle}deg);
+		transform: translate(0, -1%) rotate(${angle}deg);
 	}
 `;
 export const EarthDiv = styled.div`
@@ -24,5 +24,5 @@ export const EarthImg = styled.img.attrs({
 })`
 	width: 50vw;
 	height: auto;
-	animation: ${(props) => floatAnim(props.angle)} 6s ease infinite;
+	animation: ${(props) => floatAnim(props.angle)} 6s ease-in-out infinite;
 `;
