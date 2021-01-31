@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/equinox-final-react/static/css/main.479542d9.chunk.css",
+    "main.css": "/equinox-final-react/static/css/main.a036d353.chunk.css",
     "main.js": "/equinox-final-react/static/js/main.b911bee9.chunk.js",
     "main.js.map": "/equinox-final-react/static/js/main.b911bee9.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
@@ -8,7 +8,7 @@
     "static/js/2.47e44b89.chunk.js": "/equinox-final-react/static/js/2.47e44b89.chunk.js",
     "static/js/2.47e44b89.chunk.js.map": "/equinox-final-react/static/js/2.47e44b89.chunk.js.map",
     "index.html": "/equinox-final-react/index.html",
-    "static/css/main.479542d9.chunk.css.map": "/equinox-final-react/static/css/main.479542d9.chunk.css.map",
+    "static/css/main.a036d353.chunk.css.map": "/equinox-final-react/static/css/main.a036d353.chunk.css.map",
     "static/js/2.47e44b89.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.47e44b89.chunk.js.LICENSE.txt",
     "static/media/earth.6b66edcc.svg": "/equinox-final-react/static/media/earth.6b66edcc.svg",
     "static/media/moon.a7de7362.svg": "/equinox-final-react/static/media/moon.a7de7362.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.86c67bdf.js",
     "static/js/2.47e44b89.chunk.js",
-    "static/css/main.479542d9.chunk.css",
+    "static/css/main.a036d353.chunk.css",
     "static/js/main.b911bee9.chunk.js"
   ]
 }
