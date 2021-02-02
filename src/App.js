@@ -1,19 +1,9 @@
 import './App.css';
 import Earth from './Components/Earth';
-import Moon from './Components/Moon';
-import Sun from './Components/Sun';
-import img from './Assets/star.svg';
+
 import TurningDiv from './Components/TurningDiv';
-import { useScroll } from './UseScroll';
-import { useEffect } from 'react';
+
 function App() {
-	const scroll = useScroll();
-	console.log(scroll);
-	useEffect(() => {
-		if (scroll == 100) {
-			window.scrollTo({ top: 0 });
-		}
-	}, [scroll]);
 	return (
 		<div className='App'>
 			<div

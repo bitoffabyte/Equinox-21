@@ -16,7 +16,6 @@ export const useScroll = () => {
 		const scrollTop = window.pageYOffset; // how much the user has scrolled by
 		const winHeight = window.innerHeight;
 		const docHeight = getDocHeight();
-
 		const totalDocScrollLength = docHeight - winHeight;
 		const scrollPostion = Math.floor(
 			(scrollTop / totalDocScrollLength) * 100

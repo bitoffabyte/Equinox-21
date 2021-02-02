@@ -1,16 +1,6 @@
-import img from '../Assets/sun.svg';
+import { SunImg } from './Styles/Sun-Style';
 const Sun = () => {
-	return (
-		<img
-			src={img}
-			style={{
-				position: 'absolute',
-				width: '50vw',
-				left: '0',
-				transform: `translate(-50%,-50%)`,
-			}}
-		/>
-	);
+	return <SunImg />;
 };
 
 export default Sun;

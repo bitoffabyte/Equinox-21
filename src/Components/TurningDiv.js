@@ -3,30 +3,21 @@ import { useScroll } from '../UseScroll';
 import Moon from './Moon';
 import Sun from './Sun';
 import useDimension from '../useDimensions';
-const TurningDiv = () => {
+import { TurningDiv } from './Styles/TurningDiv-Style';
+const TurningDivs = () => {
 	const scroll = useScroll();
 	const [radius, updateRadius] = useState(0);
 	const { height, width } = useDimension();
 	useEffect(() => {
 		updateRadius(2 * Math.sqrt(height * height + width * width));
 	}, [height, width]);
+	console.log(scroll);
 	return (
-		<div
-			style={{
-				position: 'fixed',
-				top: '100%',
-				width: `${radius}px`,
-				transform: `translateX(-50%) rotate(-${
-					(scroll * 360) / 100 + 30
-				}deg)`,
-				zIndex: '100',
-				background: '#ffffff',
-			}}
-		>
+		<TurningDiv scroll={scroll * 3.6 + 30} radius={radius}>
 			<Moon />
 			<Sun />
-		</div>
+		</TurningDiv>
 	);
 };
 
-export default TurningDiv;
+export default TurningDivs;
