@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css","webpack://src/App.css"],"names":[],"mappings":"AAAA,gBAGC,QAAS,CACT,SAAU,CACV,iBACD,CCNA,oBACC,YACD","file":"main.a036d353.chunk.css","sourcesContent":["html,\nbody,\n#root {\n\tmargin: 0;\n\tpadding: 0;\n\toverflow-x: hidden;\n}\n","::-webkit-scrollbar {\r\n\tdisplay: none;\r\n}\r\n"]}
