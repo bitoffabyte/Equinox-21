@@ -8,22 +8,61 @@
 }
 .Page2Content {
 	width: 70vw;
-	height: 60vh;
+	height: 80vh;
 
 	background: linear-gradient(184.26deg, #14065f 3.47%, #1a2282 96.53%);
 	box-shadow: 3px 1px 38px -12px #000000;
 	border-radius: 28px;
+	opacity: 1;
 
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	z-index: 1000;
 }
+.Page2Content h1 {
+	font-family: Uni Sans Demo;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 6vw;
+	line-height: 1vw;
+	text-align: center;
+
+	color: #ffffff;
+}
+.aboutStuff {
+	width: 80%;
+	margin: auto;
+	overflow-y: scroll;
+	position: relative;
+}
+.aboutCont {
+	margin-top: 0;
+	font-family: 'acumin-pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5vw;
+	line-height: 1.8vw;
+	text-align: justify;
+
+	color: #ffffff;
+}
 @media screen and (max-width: 720px) {
-	.Page1Content {
-		width: 80vw;
-		height: 65vh;
-		background: rgba(255, 255, 255, 0.1);
+	.Page2Content {
+		width: 90vw;
+		height: 80vh;
 		flex-direction: column;
+	}
+	.aboutCont {
+		font-size: 4vw;
+		text-align: justify;
+		line-height: 5vw;
+	}
+	.aboutStuff {
+		width: 90%;
+	}
+	.Page2Content h1 {
+		font-size: 9vw;
+		line-height: 9vw;
+		font-weight: normal;
 	}
 }

@@ -3,7 +3,12 @@ body,
 #root {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://use.typekit.net/twf2zjd.css%22');
+@import url('https://use.typekit.net/twf2zjd.css');
+@font-face {
+	font-family: 'Uni Sans Demo';
+	src: local('Uni Sans Demo'),
+		url(./Assets/fonts/Uni_Sans_Heavy.ttf) format('truetype');
+}
