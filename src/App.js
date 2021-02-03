@@ -4,6 +4,12 @@ import Page1 from './Components//Pages/Page1';
 import { FullPage, Slide } from 'react-full-page';
 
 import TurningDiv from './Components/TurningDiv';
+import Page2 from './Components/Pages/Page2';
+import Page3 from './Components/Pages/Page3';
+import Page4 from './Components/Pages/Page4';
+import Page5 from './Components/Pages/Page5';
+import Page6 from './Components/Pages/Page6';
+import Page7 from './Components/Pages/Page7';
 
 function App() {
 	return (
@@ -14,22 +20,22 @@ function App() {
 						<Page1 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page2 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page3 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page4 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page5 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page6 />
 					</Slide>
 					<Slide>
-						<Page1 />
+						<Page7 />
 					</Slide>
 				</FullPage>
 			</div>

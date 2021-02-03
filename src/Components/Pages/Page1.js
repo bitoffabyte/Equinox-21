@@ -1,5 +1,5 @@
 import './Page1.css';
-import logo from '../../Assets/Equinox_Logo.svg';
+import logo from '../../Assets/Equinox_Logo.png';
 const Page1 = () => {
 	return (
 		<div className='page1bg'>
@@ -12,9 +12,7 @@ const Page1 = () => {
 					/>
 				</div>
 				<div className='right'>
-					<p className='dates'>
-						26<sup>Th</sup> - 28<sup>Th</sup> March
-					</p>
+					<p className='dates'>26 - 28 March</p>
 					<p className='timer'>36:10:07</p>
 					<button
 						id='devfolio-apply-now'

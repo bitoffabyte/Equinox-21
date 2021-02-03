@@ -9,10 +9,7 @@
 .Page1Content {
 	width: 50vw;
 	height: 60vh;
-
-	background: rgba(255, 255, 255, 0.1);
-	/* background: linear-gradient(180.31deg, #500a85 -6.88%, #240467 110.16%); */
-	opacity: 0.9;
+	background: linear-gradient(184.26deg, #610e91 3.47%, #120352 96.53%);
 	box-shadow: 3px 1px 38px -12px #000000;
 	border-radius: 28px;
 	display: flex;
@@ -84,4 +81,32 @@
 
 #devfolio-apply-now:hover {
 	background-color: #2954bf !important;
+}
+
+@media screen and (max-width: 720px) {
+	.Page1Content {
+		width: 80vw;
+		height: 65vh;
+		flex-direction: column;
+	}
+	.equinoxlogo {
+		width: 70%;
+		top: 2%;
+	}
+	.left,
+	.right {
+		width: 100%;
+	}
+	.left {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.dates {
+		font-size: 6vw;
+	}
+	.timer {
+		font-size: 9vw;
+		margin-bottom: 2%;
+	}
 }

@@ -1,0 +1,28 @@
+.page3bg {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+.Page3Content {
+	width: 50vw;
+	height: 60vh;
+
+	background: linear-gradient(184.26deg, #1d3aac 3.47%, #1b7fde 96.53%);
+	box-shadow: 3px 1px 38px -12px #000000;
+	border-radius: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+@media screen and (max-width: 720px) {
+	.Page1Content {
+		width: 80vw;
+		height: 65vh;
+		background: rgba(255, 255, 255, 0.1);
+		flex-direction: column;
+	}
+}
