@@ -10,7 +10,8 @@
 	width: 50vw;
 	height: 60vh;
 
-	background: rgba(255, 255, 255, 0.041);
+	background: rgba(255, 255, 255, 0.1);
+	/* background: linear-gradient(180.31deg, #500a85 -6.88%, #240467 110.16%); */
 	opacity: 0.9;
 	box-shadow: 3px 1px 38px -12px #000000;
 	border-radius: 28px;

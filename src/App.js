@@ -1,6 +1,7 @@
 import './App.css';
 import Earth from './Components/Earth';
-import Pages from './Components/Pages';
+import Page1 from './Components//Pages/Page1';
+import { FullPage, Slide } from 'react-full-page';
 
 import TurningDiv from './Components/TurningDiv';
 
@@ -8,7 +9,29 @@ function App() {
 	return (
 		<div className='App'>
 			<div className='mainDiv'>
-				<Pages />
+				<FullPage>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+					<Slide>
+						<Page1 />
+					</Slide>
+				</FullPage>
 			</div>
 			<div
 				style={{

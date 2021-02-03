@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './Page1.css';
 import logo from '../../Assets/Equinox_Logo.svg';
+import { Slide } from 'react-full-page';
 const Page1 = () => {
 	const loadApplyNowScript = () => {
 		const script = document.createElement('script');
