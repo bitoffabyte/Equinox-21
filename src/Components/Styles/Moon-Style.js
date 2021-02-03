@@ -8,4 +8,5 @@ export const MoonImg = styled.img.attrs({
 	width: 50vw;
 	left: 100%;
 	transform: translate(-50%, -50%);
+	z-index: 1;
 `;

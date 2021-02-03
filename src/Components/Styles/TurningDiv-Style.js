@@ -4,7 +4,7 @@ export const TurningDiv = styled.div`
 	top: 100%;
 	width: ${(props) => props.radius}px;
 	transform: translateX(-50%) rotate(-${(props) => props.scroll}deg);
-	z-index: 100;
+	z-index: 0;
 	background: #ffffff;
 	transition: transform 0.1s;
 	@media screen and (max-width: 720px) {

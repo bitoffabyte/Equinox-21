@@ -17,21 +17,21 @@ export const EarthDiv = styled.div`
 	top: 100%;
 	left: 0;
 	width: 100px;
-	transform: translate(-25vw, -50%);
+	transform: translate(-23vw, -50%);
 	@media screen and (max-width: 720px) {
 		top: 100%;
 		left: 0vw;
-		transform: translate(-0%, -50%);
+		transform: translate(50%, -50%);
 		transition: transform 1s linear;
 	}
 `;
 export const EarthImg = styled.img.attrs({
 	src: `${earth}`,
 })`
-	width: 50vw;
+	width: 40vw;
 	height: auto;
 	animation: ${(props) => floatAnim(props.angle)} 6s ease-in-out infinite;
 	@media screen and (max-width: 720px) {
-		width: 100vw;
+		width: 80vw;
 	}
 `;
