@@ -59,6 +59,7 @@
 	-ms-flex-align: center;
 	-webkit-box-align: center;
 	align-items: center;
+	outline: none;
 	background-color: #3770ff;
 	border-radius: 3px;
 	border: none;

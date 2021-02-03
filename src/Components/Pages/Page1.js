@@ -1,27 +1,6 @@
-import { useEffect } from 'react';
 import './Page1.css';
 import logo from '../../Assets/Equinox_Logo.svg';
-import { Slide } from 'react-full-page';
 const Page1 = () => {
-	const loadApplyNowScript = () => {
-		const script = document.createElement('script');
-		script.src = 'https://apply.devfolio.co';
-		script.async = true;
-		document.body.appendChild(script);
-		script.onload = handleLoad;
-	};
-
-	const handleLoad = () => {
-		new Devfolio({
-			key: 'equinox21',
-			buttonSelector: '#devfolio-apply-now',
-		});
-	};
-
-	useEffect(() => {
-		window.onload = loadApplyNowScript();
-	}, []);
-
 	return (
 		<div className='page1bg'>
 			<div className='Page1Content'>
@@ -37,7 +16,15 @@ const Page1 = () => {
 						26<sup>Th</sup> - 28<sup>Th</sup> March
 					</p>
 					<p className='timer'>36:10:07</p>
-					<button id='devfolio-apply-now'>
+					<button
+						id='devfolio-apply-now'
+						onClick={() => {
+							window.open(
+								'https://devfolio.co/external-apply/equinox21',
+								'_blank'
+							);
+						}}
+					>
 						<svg
 							class='logo'
 							xmlns='http://www.w3.org/2000/svg'
