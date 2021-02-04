@@ -54,7 +54,7 @@
 	font-size: 2vw;
 	line-height: 19px;
 	text-align: right;
-	margin-top: 0;
+	margin-top: 20%;
 	color: #ffffff;
 }
 .timer {
@@ -66,6 +66,7 @@
 	text-align: right;
 	color: #ffffff;
 	margin-top: 0;
+	margin-bottom: 10%;
 }
 
 #devfolio-apply-now {
@@ -178,5 +179,8 @@
 	}
 	.links {
 		width: 70%;
+	}
+	.dates {
+		margin-top: 5%;
 	}
 }

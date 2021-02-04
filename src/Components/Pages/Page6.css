@@ -7,12 +7,9 @@
 	z-index: 1000;
 }
 .Page6Content {
-	width: 50vw;
-	height: 60vh;
+	width: 70vw;
+	height: 80vh;
 
-	background: linear-gradient(184.26deg, #76b5e5 3.47%, #967fd8 96.53%);
-	box-shadow: 3px 1px 38px -12px #000000;
-	border-radius: 28px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -21,6 +18,7 @@
 	transform: scale(0);
 	transition: all 500ms;
 	transition: all 500ms;
+	flex-direction: column;
 }
 .fadeIn {
 	opacity: 1;
@@ -44,11 +42,79 @@
 
 	color: #ffffff;
 }
+.organizers {
+	width: 90%;
+	height: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card {
+	background: linear-gradient(184.26deg, #76b5e5 3.47%, #967fd8 96.53%);
+	box-shadow: 3px 1px 38px -12px #000000;
+	border-radius: 28px;
+	width: 18vw;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.card img {
+	width: 80%;
+	box-shadow: 6px 6px 15px -3px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+}
+.card p {
+	font-family: Uni Sans Demo;
+	font-style: normal;
+	/* font-weight: 900; */
+	font-size: 3vw;
+	text-align: center;
+
+	color: #ffffff;
+	text-transform: capitalize !important;
+}
 @media screen and (max-width: 720px) {
 	.Page6Content {
 		width: 80vw;
 		height: 65vh;
 		/* background: rgba(255, 255, 255, 0.1); */
 		flex-direction: column;
+		margin-top: -20%;
+	}
+	.organizers {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.card {
+		width: 50vw;
+		height: 12vh;
+		flex-direction: row;
+	}
+	.card img {
+		width: 30%;
+		box-shadow: 6px 6px 15px -3px rgba(0, 0, 0, 0.25);
+		/* border-radius: 30px; */
+		filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+		border-radius: 30px;
+	}
+	.Page6Content h1 {
+		font-size: 8vh;
+	}
+	.card1 {
+		background: linear-gradient(184.26deg, #79b4ea 3.47%, #7fa7e7 96.53%);
+		box-shadow: 3px 1px 38px -12px #000000;
+		border-radius: 28px;
+	}
+	.card2 {
+		background: linear-gradient(184.26deg, #83a1e6 3.47%, #8b93e2 96.53%);
+		box-shadow: 3px 1px 38px -12px #000000;
+		border-radius: 28px;
+	}
+	.card3 {
+		background: linear-gradient(184.26deg, #8e8fe1 3.47%, #9485dd 96.53%);
+		box-shadow: 3px 1px 38px -12px #000000;
+		border-radius: 28px;
 	}
 }

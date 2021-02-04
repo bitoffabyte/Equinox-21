@@ -15,7 +15,7 @@ const Page5 = ({ fadeIn }) => {
 	return (
 		<div className='page5bg'>
 			<div className={`Page5Content ${fadeIn ? 'fadeIn' : ''} `}>
-				<h1>Faqs</h1>
+				<h1>FAQs</h1>
 				<div className='faqs'>
 					<div className={`leftfaq ${page == 1 ? 'pageReveal' : ''}`}>
 						<div

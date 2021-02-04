@@ -7,12 +7,9 @@
 	z-index: 1000;
 }
 .Page4Content {
-	width: 50vw;
-	height: 60vh;
+	width: 70vw;
+	height: 80vh;
 
-	background: linear-gradient(184.26deg, #229de5 3.47%, #86d2f2 96.53%);
-	box-shadow: 3px 1px 38px -12px #000000;
-	border-radius: 28px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -21,6 +18,7 @@
 	transform: scale(0);
 	transition: all 500ms;
 	transition: all 500ms;
+	flex-direction: column;
 }
 .fadeIn {
 	opacity: 1;
@@ -44,11 +42,80 @@
 
 	color: #ffffff;
 }
+.judges {
+	width: 90%;
+	height: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cardJ {
+	background: linear-gradient(184.26deg, #249ee6 3.47%, #86d2f2 96.53%);
+	box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
+	border-radius: 25.35px;
+
+	width: 18vw;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.cardJ img {
+	width: 80%;
+	box-shadow: 6px 6px 15px -3px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+}
+.cardJ p {
+	font-family: Uni Sans Demo;
+	font-style: normal;
+	/* font-weight: 900; */
+	font-size: 3vw;
+	text-align: center;
+
+	color: #ffffff;
+	text-transform: capitalize !important;
+}
 @media screen and (max-width: 720px) {
 	.Page4Content {
 		width: 80vw;
 		height: 65vh;
 		/* background: rgba(255, 255, 255, 0.1); */
 		flex-direction: column;
+		margin-top: -20%;
+	}
+	.judges {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.cardJ {
+		width: 50vw;
+		height: 12vh;
+		flex-direction: row;
+	}
+	.cardJ img {
+		width: 30%;
+		box-shadow: 6px 6px 15px -3px rgba(0, 0, 0, 0.25);
+		/* border-radius: 30px; */
+		filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+		border-radius: 30px;
+	}
+	.Page4Content h1 {
+		font-size: 8vh;
+	}
+	.cardJ1 {
+		background: linear-gradient(184.26deg, #37a8e9 3.47%, #44b8ed 96.53%);
+		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
+		border-radius: 25.35px;
+	}
+	.cardJ2 {
+		background: linear-gradient(184.26deg, #4cbded 3.47%, #60c3ee 96.53%);
+		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
+		border-radius: 25.35px;
+	}
+	.cardJ3 {
+		background: linear-gradient(184.26deg, #6ac7ee 3.47%, #7dcef0 96.53%);
+		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
+		border-radius: 25.35px;
 	}
 }
