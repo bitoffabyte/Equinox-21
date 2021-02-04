@@ -10,7 +10,7 @@ const Timer = () => {
 
 	useEffect(() => {
 		const updateTimer = () => {
-			let future = Date.parse('March 28, 2021 21:00:00');
+			let future = Date.parse('March 26, 2021 21:00:00');
 			let now = new Date();
 			let diff = future - now;
 			let days = Math.floor(diff / (1000 * 60 * 60 * 24));
