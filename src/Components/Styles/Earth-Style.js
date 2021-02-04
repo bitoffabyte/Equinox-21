@@ -21,7 +21,7 @@ export const EarthDiv = styled.div`
 	@media screen and (max-width: 720px) {
 		top: 100%;
 		left: 0vw;
-		transform: translate(50%, -50%);
+		transform: translate(35%, -50%);
 		transition: transform 1s linear;
 	}
 `;
