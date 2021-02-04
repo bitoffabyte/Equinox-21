@@ -5,10 +5,10 @@ import facebook from '../../Assets/Facebook.svg';
 import insta from '../../Assets/Insta.svg';
 import at from '../../Assets/@.svg';
 import phone from '../../Assets/Phone.svg';
-const Page1 = () => {
+const Page1 = ({ fadeIn }) => {
 	return (
 		<div className='page1bg'>
-			<div className='Page1Content'>
+			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<div className='left'>
 					<img
 						src={logo}
@@ -55,15 +55,13 @@ const Page1 = () => {
 									'mailto: equinox.robovitics@gmail.com',
 									'_blank'
 								);
-								navigator.clipboard.writeText(
-									'equinox.robovitics@gmail.com'
-								);
 							}}
 						/>
 						<img src={insta} className='linklogos' />
 						<img src={facebook} className='linklogos' />
 						<img src={discord} className='linklogos' />
 					</div>
+					Phno Copied to Clipboard
 				</div>
 			</div>
 		</div>

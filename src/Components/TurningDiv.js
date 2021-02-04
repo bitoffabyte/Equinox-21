@@ -11,7 +11,6 @@ const TurningDivs = () => {
 	useEffect(() => {
 		updateRadius(2 * Math.sqrt(height * height + width * width));
 	}, [height, width]);
-	console.log(scroll);
 	return (
 		<TurningDiv scroll={scroll * 3.6 + 30} radius={radius}>
 			<Moon />
@@ -19,5 +18,4 @@ const TurningDivs = () => {
 		</TurningDiv>
 	);
 };
-
 export default TurningDivs;

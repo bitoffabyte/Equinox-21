@@ -1,8 +1,8 @@
 import './Page2.css';
-const Page2 = () => {
+const Page2 = ({ fadeIn }) => {
 	return (
 		<div className='page2bg'>
-			<div className='Page2Content'>
+			<div className={`Page2Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<h1>ABOUT EQUINOX</h1>
 				<div className='aboutStuff'>
 					<p className='aboutCont'>
