@@ -6,10 +6,10 @@ import insta from '../../Assets/Insta.svg';
 import at from '../../Assets/@.svg';
 import phone from '../../Assets/Phone.svg';
 import { useState } from 'react';
-import Timer from 'react-compound-timer';
-
+import Timer from '../Timer';
 const Page1 = ({ fadeIn }) => {
 	const [show, updateShow] = useState(false);
+
 	return (
 		<div className='page1bg'>
 			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
@@ -22,8 +22,7 @@ const Page1 = ({ fadeIn }) => {
 				</div>
 				<div className='right'>
 					<p className='dates'>26 - 28 March</p>
-
-					<p className='timer'>50 Days</p>
+					<Timer />
 					<button
 						id='devfolio-apply-now'
 						onClick={() => {
