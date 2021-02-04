@@ -6,7 +6,7 @@ const Page6 = ({ fadeIn }) => {
 	return (
 		<div className='page6bg'>
 			<div className={`Page6Content ${fadeIn ? 'fadeIn' : ''} `}>
-				<h1>Organizers</h1>
+				<h1>ORGANISERS</h1>
 				<div className='organizers'>
 					<div className='card card1'>
 						<img src={ad} />
