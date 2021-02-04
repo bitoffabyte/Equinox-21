@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/equinox-final-react/static/css/main.6cd174fe.chunk.css",
-    "main.js": "/equinox-final-react/static/js/main.db63dfa0.chunk.js",
-    "main.js.map": "/equinox-final-react/static/js/main.db63dfa0.chunk.js.map",
+    "main.css": "/equinox-final-react/static/css/main.549df765.chunk.css",
+    "main.js": "/equinox-final-react/static/js/main.1ece831c.chunk.js",
+    "main.js.map": "/equinox-final-react/static/js/main.1ece831c.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
     "runtime-main.js.map": "/equinox-final-react/static/js/runtime-main.86c67bdf.js.map",
-    "static/js/2.a7e284fc.chunk.js": "/equinox-final-react/static/js/2.a7e284fc.chunk.js",
-    "static/js/2.a7e284fc.chunk.js.map": "/equinox-final-react/static/js/2.a7e284fc.chunk.js.map",
+    "static/js/2.2c9ff1ef.chunk.js": "/equinox-final-react/static/js/2.2c9ff1ef.chunk.js",
+    "static/js/2.2c9ff1ef.chunk.js.map": "/equinox-final-react/static/js/2.2c9ff1ef.chunk.js.map",
     "index.html": "/equinox-final-react/index.html",
-    "static/css/main.6cd174fe.chunk.css.map": "/equinox-final-react/static/css/main.6cd174fe.chunk.css.map",
-    "static/js/2.a7e284fc.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.a7e284fc.chunk.js.LICENSE.txt",
+    "static/css/main.549df765.chunk.css.map": "/equinox-final-react/static/css/main.549df765.chunk.css.map",
+    "static/js/2.2c9ff1ef.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.2c9ff1ef.chunk.js.LICENSE.txt",
     "static/media/@.f866be5b.svg": "/equinox-final-react/static/media/@.f866be5b.svg",
     "static/media/Arrow.96b8725b.svg": "/equinox-final-react/static/media/Arrow.96b8725b.svg",
     "static/media/Discord.87b52b41.svg": "/equinox-final-react/static/media/Discord.87b52b41.svg",
@@ -18,14 +18,17 @@
     "static/media/Insta.c3541115.svg": "/equinox-final-react/static/media/Insta.c3541115.svg",
     "static/media/Phone.bf04923c.svg": "/equinox-final-react/static/media/Phone.bf04923c.svg",
     "static/media/index.css": "/equinox-final-react/static/media/Uni_Sans_Heavy.d97dd27f.ttf",
+    "static/media/ad.bc7f3cf4.svg": "/equinox-final-react/static/media/ad.bc7f3cf4.svg",
+    "static/media/an.ed65e3f2.svg": "/equinox-final-react/static/media/an.ed65e3f2.svg",
     "static/media/earth.4d579416.svg": "/equinox-final-react/static/media/earth.4d579416.svg",
     "static/media/moon.a7de7362.svg": "/equinox-final-react/static/media/moon.a7de7362.svg",
-    "static/media/sun.1fc1b9fb.svg": "/equinox-final-react/static/media/sun.1fc1b9fb.svg"
+    "static/media/sun.1fc1b9fb.svg": "/equinox-final-react/static/media/sun.1fc1b9fb.svg",
+    "static/media/v.2f6d262a.svg": "/equinox-final-react/static/media/v.2f6d262a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.86c67bdf.js",
-    "static/js/2.a7e284fc.chunk.js",
-    "static/css/main.6cd174fe.chunk.css",
-    "static/js/main.db63dfa0.chunk.js"
+    "static/js/2.2c9ff1ef.chunk.js",
+    "static/css/main.549df765.chunk.css",
+    "static/js/main.1ece831c.chunk.js"
   ]
 }
