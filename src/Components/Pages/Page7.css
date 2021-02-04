@@ -27,11 +27,21 @@
 	align-items: center;
 	z-index: 1000;
 }
+
+.Page7Content h1 {
+	font-family: Uni Sans Demo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 6vw;
+	line-height: 1vw;
+	text-align: center;
+
+	color: #ffffff;
+}
 @media screen and (max-width: 720px) {
-	.Page1Content {
+	.Page7Content {
 		width: 80vw;
 		height: 65vh;
-		background: rgba(255, 255, 255, 0.1);
 		flex-direction: column;
 	}
 }

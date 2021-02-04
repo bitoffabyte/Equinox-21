@@ -1,5 +1,10 @@
 import './Page1.css';
 import logo from '../../Assets/Equinox_Logo.png';
+import discord from '../../Assets/Discord.svg';
+import facebook from '../../Assets/Facebook.svg';
+import insta from '../../Assets/Insta.svg';
+import at from '../../Assets/@.svg';
+import phone from '../../Assets/Phone.svg';
 const Page1 = () => {
 	return (
 		<div className='page1bg'>
@@ -39,6 +44,26 @@ const Page1 = () => {
 						</svg>
 						Apply with Devfolio
 					</button>
+					<div className='links'>
+						<img src={phone} className='linklogos at' />
+
+						<img
+							src={at}
+							className='linklogos at'
+							onClick={() => {
+								window.open(
+									'mailto: equinox.robovitics@gmail.com',
+									'_blank'
+								);
+								navigator.clipboard.writeText(
+									'equinox.robovitics@gmail.com'
+								);
+							}}
+						/>
+						<img src={insta} className='linklogos' />
+						<img src={facebook} className='linklogos' />
+						<img src={discord} className='linklogos' />
+					</div>
 				</div>
 			</div>
 		</div>

@@ -22,7 +22,7 @@
 .Page2Content h1 {
 	font-family: Uni Sans Demo;
 	font-style: normal;
-	font-weight: 900;
+	font-weight: normal;
 	font-size: 6vw;
 	line-height: 1vw;
 	text-align: center;
@@ -49,16 +49,18 @@
 @media screen and (max-width: 720px) {
 	.Page2Content {
 		width: 90vw;
-		height: 80vh;
+		height: auto;
+		max-height: 80vh;
 		flex-direction: column;
 	}
 	.aboutCont {
-		font-size: 4vw;
+		font-size: 100%;
 		text-align: justify;
-		line-height: 5vw;
+		line-height: 100%;
 	}
 	.aboutStuff {
 		width: 90%;
+		padding-bottom: 10%;
 	}
 	.Page2Content h1 {
 		font-size: 9vw;
