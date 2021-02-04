@@ -2,6 +2,7 @@
 	display: none;
 }
 * {
+	scrollbar-width: none;
 }
 .mainDiv {
 	height: 700vh;
