@@ -1,7 +1,7 @@
 import { useState } from 'react';
 export const useTimer = () => {
 	const [timer, updateTimer] = useState({});
-	let future = Date.parse('March 28, 2021 21:00:00');
+	let future = Date.parse('March 26, 2021 21:00:00');
 	let now = new Date();
 	let diff = future - now;
 	console.log(now, future);
