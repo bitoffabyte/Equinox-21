@@ -117,6 +117,22 @@
 	transform: scale(1.1);
 	transition: all 0.5s;
 }
+.contact {
+	width: 100%;
+	opacity: 0;
+	font-family: 'roboto';
+	font-style: normal;
+	color: white;
+	transition: all 0.3s;
+	text-align: center;
+}
+.showContact {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	text-align: center;
+	transition: all 0.3s;
+}
 
 @media screen and (max-width: 1030px) {
 	.Page1Content {

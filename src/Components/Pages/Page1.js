@@ -5,7 +5,9 @@ import facebook from '../../Assets/Facebook.svg';
 import insta from '../../Assets/Insta.svg';
 import at from '../../Assets/@.svg';
 import phone from '../../Assets/Phone.svg';
+import { useState } from 'react';
 const Page1 = ({ fadeIn }) => {
+	const [show, updateShow] = useState(false);
 	return (
 		<div className='page1bg'>
 			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
@@ -45,7 +47,13 @@ const Page1 = ({ fadeIn }) => {
 						Apply with Devfolio
 					</button>
 					<div className='links'>
-						<img src={phone} className='linklogos at' />
+						<img
+							src={phone}
+							className='linklogos at'
+							onClick={() => {
+								updateShow((prev) => !prev);
+							}}
+						/>
 
 						<img
 							src={at}
@@ -57,11 +65,40 @@ const Page1 = ({ fadeIn }) => {
 								);
 							}}
 						/>
-						<img src={insta} className='linklogos' />
-						<img src={facebook} className='linklogos' />
-						<img src={discord} className='linklogos' />
+						<img
+							src={insta}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://www.instagram.com/equinox_robovitics/',
+									'_blank'
+								);
+							}}
+						/>
+						<img
+							src={facebook}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://www.facebook.com/Equinox-Robovitics-110054387359678',
+									'_blank'
+								);
+							}}
+						/>
+						<img
+							src={discord}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://discord.gg/EfV4kK3Bgu',
+									'_blank'
+								);
+							}}
+						/>
 					</div>
-					Phno Copied to Clipboard
+					<p className={`contact ${show ? 'showContact' : ''}`}>
+						Contact: +91 98980 56388
+					</p>
 				</div>
 			</div>
 		</div>
