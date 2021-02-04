@@ -7,8 +7,8 @@
 	z-index: 1000;
 }
 .Page7Content {
-	width: 50vw;
-	height: 60vh;
+	width: 70vw;
+	height: 80vh;
 
 	background: linear-gradient(
 		184.26deg,
@@ -30,6 +30,7 @@
 	transform: scale(0);
 	transition: all 500ms;
 	transition: all 500ms;
+	flex-direction: column;
 }
 .fadeIn {
 	opacity: 1;
@@ -53,10 +54,71 @@
 
 	color: #ffffff;
 }
+.sponsors {
+	height: 80%;
+	width: 100%;
+}
+.imgs {
+	width: 8vw;
+	transition: all 500ms;
+}
+.imgs:hover {
+	transform: scale(1.15);
+	transition: all 500ms;
+}
+.line1 {
+	width: 50%;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.line2 {
+	width: 60%;
+
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.line3 {
+	width: 70%;
+
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.line4 {
+	width: 80%;
+
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.line5 {
+	width: 100%;
+
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
 @media screen and (max-width: 720px) {
 	.Page7Content {
 		width: 80vw;
 		height: 65vh;
 		flex-direction: column;
+	}
+	.imgs {
+		width: 10vh;
+	}
+	.line1,
+	.line2,
+	.line3,
+	.line4,
+	.line5 {
+		width: 100%;
 	}
 }
