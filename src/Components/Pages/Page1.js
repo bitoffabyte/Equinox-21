@@ -48,6 +48,7 @@ const Page1 = ({ fadeIn }) => {
 						</svg>
 						Apply with Devfolio
 					</button>
+					{/* <img src = {discord}/> */}
 					<div className='links'>
 						<img
 							src={phone}

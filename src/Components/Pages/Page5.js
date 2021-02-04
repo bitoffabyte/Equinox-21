@@ -39,8 +39,14 @@ const Page5 = ({ fadeIn }) => {
 								and accessible to all participants equally. Of
 								course, maintain a positive, respectful attitude
 								toward your fellow hackers throughout the event.
-								We ask that all attendees follow the MLH Code of
-								Conduct.
+								We ask that all attendees follow the{' '}
+								<a
+									href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'
+									target='_blank'
+									class='anchor'
+								>
+									MLH Code of Conduct.
+								</a>
 							</div>
 						</div>
 						<div
@@ -121,7 +127,9 @@ const Page5 = ({ fadeIn }) => {
 								{' '}
 								How many people in a team?
 							</div>
-							<div className='answer'>Five sounds good.</div>
+							<div className='answer'>
+								Two to Five members per team.
+							</div>
 						</div>
 						<div
 							className={`faq ${show6 ? 'show' : ''}`}

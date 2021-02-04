@@ -105,8 +105,20 @@
 	font-size: 1vw;
 	text-align: right;
 	text-align: justify;
+	flex-direction: column;
 
 	color: #ffffff;
+	align-items: left;
+}
+.anchor {
+	font-family: 'acumin-pro';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1vw;
+	color: #ffffff;
+	display: inline;
+	text-align: left;
+	margin-left: 0px;
 }
 .show {
 	height: 30vh;
@@ -154,7 +166,8 @@
 		height: 30vh;
 		transition: all 0.3s;
 	}
-	.answer {
+	.answer,
+	.anchor {
 		font-size: 1.3vh;
 		align-items: flex-start;
 	}

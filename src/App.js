@@ -11,12 +11,14 @@ import Page5 from './Components/Pages/Page5';
 import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
 import { useState } from 'react';
+import MLH from './Components/MLH';
 function App() {
 	const [page, updatePage] = useState(0);
 	const [page2, updatePage2] = useState(1);
 
 	return (
 		<div className='App'>
+			<MLH />
 			<div className='mainDiv'>
 				<FullPage
 					beforeChange={({ from, to }) => {
