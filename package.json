@@ -1,4 +1,5 @@
 {
+	"homepage": "https://bitoffabyte.github.io/equinox-final-react/",
 	"name": "equinox-final-react",
 	"version": "0.1.0",
 	"private": true,
@@ -6,6 +7,7 @@
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
+		"parallax-js": "^3.1.0",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-full-page": "^0.1.11",

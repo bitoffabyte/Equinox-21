@@ -10,15 +10,40 @@ import Page4 from './Components/Pages/Page4';
 import Page5 from './Components/Pages/Page5';
 import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import MLH from './Components/MLH';
+import Planets from './Components/Planets';
 function App() {
 	const [page, updatePage] = useState(0);
 	const [page2, updatePage2] = useState(1);
-
+	useEffect(() => {
+		window.addEventListener(
+			'keydown',
+			function (e) {
+				// space and arrow keys
+				if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+					e.preventDefault();
+				}
+			},
+			false
+		);
+		return () => {
+			window.removeEventListener(
+				'keydown',
+				function (e) {
+					// space and arrow keys
+					if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+						e.preventDefault();
+					}
+				},
+				false
+			);
+		};
+	}, []);
 	return (
 		<div className='App'>
 			<MLH />
+			{/* <Planets /> */}
 			<div className='mainDiv'>
 				<FullPage
 					beforeChange={({ from, to }) => {
