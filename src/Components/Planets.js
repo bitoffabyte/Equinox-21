@@ -11,32 +11,32 @@ const layers = [
 	{
 		name: 'Planet-1',
 		image: Neptune,
-		dataDepth: '0.1',
+		dataDepth: '0.01',
 	},
 	{
 		name: 'Planet-2',
 		image: green,
-		dataDepth: '0.5',
+		dataDepth: '0.05',
 	},
 	{
 		name: 'Planet-3',
 		image: uranus,
-		dataDepth: '0.3',
+		dataDepth: '0.03',
 	},
 	{
 		name: 'Planet-4',
 		image: saturn,
-		dataDepth: '-0.1',
+		dataDepth: '-0.06',
 	},
 	{
 		name: 'Planet-5',
 		image: purple,
-		dataDepth: '0.5',
+		dataDepth: '0.07',
 	},
 	{
 		name: 'Planet-6',
 		image: mars,
-		dataDepth: '0.5',
+		dataDepth: '0.04',
 	},
 ];
 const Planets = () => {
