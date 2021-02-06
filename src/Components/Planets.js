@@ -1,14 +1,52 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Neptune from '../Assets/neptune.svg';
 import green from '../Assets/green.svg';
 import uranus from '../Assets/uranus.svg';
 import saturn from '../Assets/saturn.svg';
 import purple from '../Assets/purple.svg';
 import mars from '../Assets/mars.svg';
+import Parallax from 'parallax-js';
 import './Planets.css';
+const layers = [
+	{
+		name: 'Planet-1',
+		image: Neptune,
+		dataDepth: '0.1',
+	},
+	{
+		name: 'Planet-2',
+		image: green,
+		dataDepth: '0.5',
+	},
+	{
+		name: 'Planet-3',
+		image: uranus,
+		dataDepth: '0.3',
+	},
+	{
+		name: 'Planet-4',
+		image: saturn,
+		dataDepth: '-0.1',
+	},
+	{
+		name: 'Planet-5',
+		image: purple,
+		dataDepth: '0.5',
+	},
+	{
+		name: 'Planet-6',
+		image: mars,
+		dataDepth: '0.5',
+	},
+];
 const Planets = () => {
+	useEffect(() => {
+		const scene = document.getElementById('scene');
+		new Parallax(scene);
+	});
 	return (
 		<div
+			id='scene'
 			style={{
 				width: '100vw',
 				height: '100vh',
@@ -18,12 +56,15 @@ const Planets = () => {
 				// background: 'red',
 			}}
 		>
-			<img src={Neptune} className='neptune' />
-			<img src={green} className='neptune' />
-			<img src={uranus} className='neptune' />
-			<img src={saturn} className='neptune' />
-			<img src={purple} className='neptune' />
-			<img src={mars} className='neptune' />
+			{layers.map((l, index) => (
+				<img
+					key={index}
+					data-depth={l.dataDepth}
+					src={l.image}
+					alt={l.name}
+					class={`planets ${l.name}`}
+				/>
+			))}
 		</div>
 	);
 };
