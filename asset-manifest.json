@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/equinox-final-react/static/css/main.3c06275c.chunk.css",
-    "main.js": "/equinox-final-react/static/js/main.7079eb41.chunk.js",
-    "main.js.map": "/equinox-final-react/static/js/main.7079eb41.chunk.js.map",
+    "main.css": "/equinox-final-react/static/css/main.ac7da7f9.chunk.css",
+    "main.js": "/equinox-final-react/static/js/main.a17905d8.chunk.js",
+    "main.js.map": "/equinox-final-react/static/js/main.a17905d8.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
     "runtime-main.js.map": "/equinox-final-react/static/js/runtime-main.86c67bdf.js.map",
-    "static/js/2.358de6be.chunk.js": "/equinox-final-react/static/js/2.358de6be.chunk.js",
-    "static/js/2.358de6be.chunk.js.map": "/equinox-final-react/static/js/2.358de6be.chunk.js.map",
+    "static/js/2.cf0cdf09.chunk.js": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js",
+    "static/js/2.cf0cdf09.chunk.js.map": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js.map",
     "index.html": "/equinox-final-react/index.html",
-    "static/css/main.3c06275c.chunk.css.map": "/equinox-final-react/static/css/main.3c06275c.chunk.css.map",
-    "static/js/2.358de6be.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.358de6be.chunk.js.LICENSE.txt",
+    "static/css/main.ac7da7f9.chunk.css.map": "/equinox-final-react/static/css/main.ac7da7f9.chunk.css.map",
+    "static/js/2.cf0cdf09.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js.LICENSE.txt",
     "static/media/@.f866be5b.svg": "/equinox-final-react/static/media/@.f866be5b.svg",
     "static/media/Amulya.b2dcd567.svg": "/equinox-final-react/static/media/Amulya.b2dcd567.svg",
     "static/media/Arrow.96b8725b.svg": "/equinox-final-react/static/media/Arrow.96b8725b.svg",
@@ -28,21 +28,27 @@
     "static/media/do.04bcc6ea.svg": "/equinox-final-react/static/media/do.04bcc6ea.svg",
     "static/media/earth.4d579416.svg": "/equinox-final-react/static/media/earth.4d579416.svg",
     "static/media/fr.83e06b36.svg": "/equinox-final-react/static/media/fr.83e06b36.svg",
+    "static/media/green.5c6c2632.svg": "/equinox-final-react/static/media/green.5c6c2632.svg",
     "static/media/ma.4b4891a0.svg": "/equinox-final-react/static/media/ma.4b4891a0.svg",
+    "static/media/mars.43f4a62f.svg": "/equinox-final-react/static/media/mars.43f4a62f.svg",
     "static/media/moon.a7de7362.svg": "/equinox-final-react/static/media/moon.a7de7362.svg",
+    "static/media/neptune.78d430bc.svg": "/equinox-final-react/static/media/neptune.78d430bc.svg",
     "static/media/po.74a5d1a1.svg": "/equinox-final-react/static/media/po.74a5d1a1.svg",
+    "static/media/purple.da17f601.svg": "/equinox-final-react/static/media/purple.da17f601.svg",
     "static/media/sashi.963227ef.svg": "/equinox-final-react/static/media/sashi.963227ef.svg",
+    "static/media/saturn.1e93501f.svg": "/equinox-final-react/static/media/saturn.1e93501f.svg",
     "static/media/sun.1fc1b9fb.svg": "/equinox-final-react/static/media/sun.1fc1b9fb.svg",
     "static/media/task.0f1da1c0.svg": "/equinox-final-react/static/media/task.0f1da1c0.svg",
     "static/media/te.bb737205.svg": "/equinox-final-react/static/media/te.bb737205.svg",
+    "static/media/uranus.776a9d17.svg": "/equinox-final-react/static/media/uranus.776a9d17.svg",
     "static/media/v.2f6d262a.svg": "/equinox-final-react/static/media/v.2f6d262a.svg",
     "static/media/voice.da5977b6.svg": "/equinox-final-react/static/media/voice.da5977b6.svg",
     "static/media/wo.31f890f4.svg": "/equinox-final-react/static/media/wo.31f890f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.86c67bdf.js",
-    "static/js/2.358de6be.chunk.js",
-    "static/css/main.3c06275c.chunk.css",
-    "static/js/main.7079eb41.chunk.js"
+    "static/js/2.cf0cdf09.chunk.js",
+    "static/css/main.ac7da7f9.chunk.css",
+    "static/js/main.a17905d8.chunk.js"
   ]
 }
