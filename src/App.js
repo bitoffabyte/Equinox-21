@@ -52,7 +52,9 @@ function App() {
 					}}
 					duration={1000}
 				>
-					<Slide>{/* <Page1 fadeIn={page2 == 0} /> */}</Slide>
+					<Slide>
+						<Page1 fadeIn={page2 == 0} />
+					</Slide>
 					<Slide>
 						<Page2 fadeIn={page2 == 1} />
 					</Slide>
