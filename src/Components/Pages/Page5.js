@@ -43,7 +43,7 @@ const Page5 = ({ fadeIn }) => {
 								<a
 									href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'
 									target='_blank'
-									class='anchor'
+									className='anchor'
 								>
 									MLH Code of Conduct.
 								</a>

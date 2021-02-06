@@ -2,3 +2,14 @@
 	width: 100%;
 	font-size: 3.5vw;
 }
+.tim {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15%;
+}
+.tim p {
+	text-align: center;
+}

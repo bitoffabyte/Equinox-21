@@ -62,7 +62,7 @@ const Planets = () => {
 					data-depth={l.dataDepth}
 					src={l.image}
 					alt={l.name}
-					class={`planets ${l.name}`}
+					className={`planets ${l.name}`}
 				/>
 			))}
 		</div>

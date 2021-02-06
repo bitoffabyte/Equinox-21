@@ -154,7 +154,9 @@
 		opacity: 1;
 	}
 	.equinoxlogo {
-		width: 65%;
+		height: 75%;
+		/* width: 55%; */
+		width: auto;
 	}
 	.left,
 	.right {

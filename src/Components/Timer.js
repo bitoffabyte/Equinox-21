@@ -49,7 +49,7 @@ const Timer = () => {
 		};
 	}, []);
 	return (
-		<div>
+		<div className='tim'>
 			<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
 		</div>
 	);
