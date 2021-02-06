@@ -10,18 +10,6 @@
 	width: 70vw;
 	height: 80vh;
 
-	background: linear-gradient(
-		184.26deg,
-		#a354cc 3.47%,
-		#9a2aba 43.94%,
-		#6c1099 84.8%,
-		#5d0d8e 92.58%,
-		#540b89 100.75%,
-		#3d0678 120.2%
-	);
-	mix-blend-mode: normal;
-	box-shadow: 3px 1px 38px -12px #000000;
-	border-radius: 28px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,6 +19,10 @@
 	transition: all 500ms;
 	transition: all 500ms;
 	flex-direction: column;
+	background: rgba(255, 255, 255, 0.027);
+	box-shadow: 3px 1px 38px -12px #00000094;
+	border-radius: 28px;
+	backdrop-filter: blur(50px);
 }
 .fadeIn {
 	opacity: 1;

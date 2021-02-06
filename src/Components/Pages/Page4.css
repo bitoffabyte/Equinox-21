@@ -50,9 +50,10 @@
 	align-items: center;
 }
 .cardJ {
-	background: linear-gradient(184.26deg, #249ee6 3.47%, #86d2f2 96.53%);
-	box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
-	border-radius: 25.35px;
+	background: rgba(255, 255, 255, 0.027);
+	box-shadow: 3px 1px 38px -12px #00000094;
+	border-radius: 28px;
+	backdrop-filter: blur(50px);
 
 	width: 18vw;
 	height: 60vh;
@@ -102,20 +103,5 @@
 	}
 	.Page4Content h1 {
 		font-size: 8vh;
-	}
-	.cardJ1 {
-		background: linear-gradient(184.26deg, #37a8e9 3.47%, #44b8ed 96.53%);
-		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
-		border-radius: 25.35px;
-	}
-	.cardJ2 {
-		background: linear-gradient(184.26deg, #4cbded 3.47%, #60c3ee 96.53%);
-		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
-		border-radius: 25.35px;
-	}
-	.cardJ3 {
-		background: linear-gradient(184.26deg, #6ac7ee 3.47%, #7dcef0 96.53%);
-		box-shadow: 2.71607px 0.905357px 34.4036px -10.8643px #000000;
-		border-radius: 25.35px;
 	}
 }
