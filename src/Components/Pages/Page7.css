@@ -69,14 +69,6 @@
 	justify-content: space-around;
 }
 .line2 {
-	width: 60%;
-
-	display: flex;
-	margin: auto;
-	align-items: center;
-	justify-content: space-around;
-}
-.line3 {
 	width: 70%;
 
 	display: flex;
@@ -84,8 +76,16 @@
 	align-items: center;
 	justify-content: space-around;
 }
-.line4 {
+.line3 {
 	width: 80%;
+
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.line4 {
+	width: 90%;
 
 	display: flex;
 	margin: auto;
