@@ -12,9 +12,9 @@ import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
 import { useState, useEffect } from 'react';
 import MLH from './Components/MLH';
-import Planets from './Components/Planets';
+// import Planets from './Components/Planets';
 function App() {
-	const [page, updatePage] = useState(0);
+	console.log('rerender');
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
 		window.addEventListener(
@@ -43,35 +43,34 @@ function App() {
 	return (
 		<div className='App'>
 			<MLH />
-			<Planets />
+			{/* <Planets /> */}
 			<div className='mainDiv'>
 				<FullPage
 					beforeChange={({ from, to }) => {
-						updatePage(from);
 						updatePage2(to);
 					}}
 					duration={1000}
 				>
 					<Slide>
-						<Page1 fadeIn={page2 == 0} />
+						<Page1 fadeIn={page2 === 0} />
 					</Slide>
 					<Slide>
-						<Page2 fadeIn={page2 == 1} />
+						<Page2 fadeIn={page2 === 1} />
 					</Slide>
 					<Slide>
-						<Page3 fadeIn={page2 == 2} />
+						<Page3 fadeIn={page2 === 2} />
 					</Slide>
 					<Slide>
-						<Page4 fadeIn={page2 == 3} />
+						<Page4 fadeIn={page2 === 3} />
 					</Slide>
 					<Slide>
-						<Page5 fadeIn={page2 == 4} />
+						<Page5 fadeIn={page2 === 4} />
 					</Slide>
 					<Slide>
-						<Page6 fadeIn={page2 == 5} />
+						<Page6 fadeIn={page2 === 5} />
 					</Slide>
 					<Slide>
-						<Page7 fadeIn={page2 == 6} />
+						<Page7 fadeIn={page2 === 6} />
 					</Slide>
 				</FullPage>
 			</div>

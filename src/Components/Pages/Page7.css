@@ -54,6 +54,9 @@
 	width: 8vw;
 	transition: all 500ms;
 }
+.jb {
+	width: 6vw;
+}
 .imgs:hover {
 	transform: scale(1.15);
 	transition: all 500ms;
@@ -112,5 +115,8 @@
 	.line4,
 	.line5 {
 		width: 100%;
+	}
+	.jb {
+		width: 7vh;
 	}
 }

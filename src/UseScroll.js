@@ -17,7 +17,7 @@ export const useScroll = () => {
 		const winHeight = window.innerHeight;
 		const docHeight = getDocHeight();
 		const totalDocScrollLength = docHeight - winHeight;
-		console.log(scrollTop);
+		// console.log(scrollTop);
 		const scrollPostion = Math.floor(
 			(scrollTop / totalDocScrollLength) * 100
 		);

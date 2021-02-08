@@ -13,6 +13,7 @@ import tas from '../../Assets/Sponsors/task.svg';
 import sa from '../../Assets/Sponsors/sashi.svg';
 import bal from '../../Assets/Sponsors/bal.svg';
 import voi from '../../Assets/Sponsors/voice.svg';
+import jb from '../../Assets/Sponsors/jetbrains.svg';
 import useDimensions from '../../useDimensions';
 const Page7 = ({ fadeIn }) => {
 	const { width, height } = useDimensions();
@@ -29,9 +30,20 @@ const Page7 = ({ fadeIn }) => {
 					</div>
 					<br />
 					<div className='line2'>
-						<img src={po} className='imgs' />
-						<img src={ma} className='imgs' />
-						<img src={te} className='imgs' />
+						{width > 720 ? (
+							<>
+								<img src={po} className='imgs' />
+								<img src={ma} className='imgs' />
+								<img src={te} className='imgs' />
+								<img src={jb} className='imgs jb' />
+							</>
+						) : (
+							<>
+								<img src={po} className='imgs' />
+								<img src={ma} className='imgs' />
+								<img src={te} className='imgs' />
+							</>
+						)}
 					</div>
 					<br />
 
@@ -45,9 +57,10 @@ const Page7 = ({ fadeIn }) => {
 							</>
 						) : (
 							<>
+								<img src={jb} className='imgs jb' />
+
 								<img src={doo} className='imgs' />
 								<img src={fr} className='imgs' />
-								<img src={wo} className='imgs' />
 							</>
 						)}
 					</div>
@@ -63,9 +76,10 @@ const Page7 = ({ fadeIn }) => {
 							</>
 						) : (
 							<>
+								<img src={wo} className='imgs' />
+
 								<img src={bg} className='imgs' />
 								<img src={tas} className='imgs' />
-								<img src={sa} className='imgs' />
 							</>
 						)}
 					</div>
@@ -73,6 +87,8 @@ const Page7 = ({ fadeIn }) => {
 					<br />
 					{width > 720 ? null : (
 						<div className='line5'>
+							<img src={sa} className='imgs' />
+
 							<img src={bal} className='imgs' />
 							<img src={voi} className='imgs' />
 						</div>
