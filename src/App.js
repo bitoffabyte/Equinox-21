@@ -12,7 +12,7 @@ import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
 import { useState, useEffect } from 'react';
 import MLH from './Components/MLH';
-// import Planets from './Components/Planets';
+import Planets from './Components/Planets';
 function App() {
 	console.log('rerender');
 	const [page2, updatePage2] = useState(1);
