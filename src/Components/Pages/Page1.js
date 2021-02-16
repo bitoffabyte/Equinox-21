@@ -23,7 +23,7 @@ const Page1 = ({ fadeIn }) => {
 				<div className='right'>
 					<p className='dates'>26 - 28 March</p>
 					<Timer />
-					<button
+					{/*<button
 						id='devfolio-apply-now'
 						onClick={() => {
 							window.open(
@@ -48,7 +48,7 @@ const Page1 = ({ fadeIn }) => {
 						</svg>
 						Apply with Devfolio
 					</button>
-					{/* <img src = {discord}/> */}
+					<img src = {discord}/> */}
 					<div className='links'>
 						<img
 							src={phone}

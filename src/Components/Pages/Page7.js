@@ -25,23 +25,29 @@ const Page7 = ({ fadeIn }) => {
 				<div className='sponsors'>
 					<div className='line1'>
 						<img src={am} className='imgs' />
-						<img src={dev} className='imgs' />
+						<img src={doo} className='imgs' />
 						<img src={cn} className='imgs' />
 					</div>
 					<br />
 					<div className='line2'>
 						{width > 720 ? (
 							<>
-								<img src={po} className='imgs' />
+								{/*<img src={po} className='imgs' />
 								<img src={ma} className='imgs' />
-								<img src={te} className='imgs' />
+								<img src={te} className='imgs' />*/}
+								<img src={fr} className='imgs' />
+								<img src={wo} className='imgs' />
+								<img src={bg} className='imgs' />
 								<img src={jb} className='imgs jb' />
 							</>
 						) : (
 							<>
-								<img src={po} className='imgs' />
+								{/*<img src={po} className='imgs' />
 								<img src={ma} className='imgs' />
-								<img src={te} className='imgs' />
+								<img src={te} className='imgs' />*/}
+								<img src={fr} className='imgs' />
+								<img src={wo} className='imgs' />
+								<img src={bg} className='imgs' />
 							</>
 						)}
 					</div>
@@ -50,23 +56,26 @@ const Page7 = ({ fadeIn }) => {
 					<div className='line3'>
 						{width > 720 ? (
 							<>
-								<img src={doo} className='imgs' />
-								<img src={fr} className='imgs' />
+								<img src={voi} className='imgs' />
+								{/*<img src={fr} className='imgs' />
 								<img src={wo} className='imgs' />
-								<img src={bg} className='imgs' />
+								<img src={bg} className='imgs' />*/}
+								<img src={tas} className='imgs' />
+								<img src={sa} className='imgs' />
+								<img src={bal} className='imgs' />
 							</>
 						) : (
 							<>
 								<img src={jb} className='imgs jb' />
 
-								<img src={doo} className='imgs' />
+								<img src={voi} className='imgs' />
 								<img src={fr} className='imgs' />
 							</>
 						)}
 					</div>
 					<br />
 
-					<div className='line4'>
+					{/*<div className='line4'>
 						{width > 720 ? (
 							<>
 								<img src={tas} className='imgs' />
@@ -82,7 +91,7 @@ const Page7 = ({ fadeIn }) => {
 								<img src={tas} className='imgs' />
 							</>
 						)}
-					</div>
+						</div>*/}
 					<br />
 					<br />
 					{width > 720 ? null : (
@@ -90,7 +99,7 @@ const Page7 = ({ fadeIn }) => {
 							<img src={sa} className='imgs' />
 
 							<img src={bal} className='imgs' />
-							<img src={voi} className='imgs' />
+							{/*<img src={voi} className='imgs' />*/}
 						</div>
 					)}
 				</div>
