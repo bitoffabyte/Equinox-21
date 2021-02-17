@@ -5,6 +5,7 @@ import facebook from '../../Assets/Facebook.svg';
 import insta from '../../Assets/Insta.svg';
 import at from '../../Assets/@.svg';
 import phone from '../../Assets/Phone.svg';
+import apply from '../../Assets/Apply.svg';
 import { useState } from 'react';
 import Timer from '../Timer';
 const Page1 = ({ fadeIn }) => {
@@ -49,6 +50,17 @@ const Page1 = ({ fadeIn }) => {
 						Apply with Devfolio
 					</button>
 					<img src = {discord}/> */}
+					<img
+						src={apply}
+						className='applyimg'
+						onClick={() =>
+							window.open(
+								'https://equinox-21.devpost.com/',
+								'_blank'
+							)
+						}
+					/>
+
 					<div className='links'>
 						<img
 							src={phone}
