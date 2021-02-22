@@ -6,7 +6,7 @@ export const TurningDiv = styled.div`
 	transform: translateX(-50%) rotate(-${(props) => props.scroll}deg);
 	z-index: 0;
 	background: #ffffff;
-	transition: transform 0.1s;
+	transition: transform 0.3s;
 	@media screen and (max-width: 720px) {
 		width: 185vh;
 		transform: translateX(-25%) rotate(-${(props) => props.scroll + 60}deg);
