@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, memo } from 'react';
 import './timer.css';
 const Timer = () => {
 	const [beep, updateBeep] = useState({
@@ -55,4 +55,4 @@ const Timer = () => {
 	);
 };
 
-export default Timer;
+export default memo(Timer);

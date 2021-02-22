@@ -6,7 +6,7 @@ import insta from '../../Assets/Insta.svg';
 import at from '../../Assets/@.svg';
 import phone from '../../Assets/Phone.svg';
 import apply from '../../Assets/Apply.svg';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import Timer from '../Timer';
 const Page1 = ({ fadeIn }) => {
 	const [show, updateShow] = useState(false);
@@ -120,4 +120,4 @@ const Page1 = ({ fadeIn }) => {
 	);
 };
 
-export default Page1;
+export default memo(Page1);

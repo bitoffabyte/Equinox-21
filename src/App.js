@@ -10,7 +10,7 @@ import Page4 from './Components/Pages/Page4';
 import Page5 from './Components/Pages/Page5';
 import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import MLH from './Components/MLH';
 import Planets from './Components/Planets';
 function App() {
@@ -90,4 +90,4 @@ function App() {
 	);
 }
 
-export default App;
+export default memo(App);

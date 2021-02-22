@@ -15,6 +15,7 @@ import bal from '../../Assets/Sponsors/bal.svg';
 import voi from '../../Assets/Sponsors/voice.svg';
 import jb from '../../Assets/Sponsors/jetbrains.svg';
 import useDimensions from '../../useDimensions';
+import { memo } from 'react';
 const Page7 = ({ fadeIn }) => {
 	const { width, height } = useDimensions();
 
@@ -108,4 +109,4 @@ const Page7 = ({ fadeIn }) => {
 	);
 };
 
-export default Page7;
+export default memo(Page7);

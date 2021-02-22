@@ -1,6 +1,6 @@
 import './Page5.css';
 import useDimension from '../../useDimensions';
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import arrow from '../../Assets/Arrow.svg';
 const Page5 = ({ fadeIn }) => {
 	const { width, height } = useDimension();
@@ -173,4 +173,4 @@ const Page5 = ({ fadeIn }) => {
 	);
 };
 
-export default Page5;
+export default memo(Page5);

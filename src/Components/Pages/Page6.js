@@ -2,6 +2,7 @@ import './Page6.css';
 import ad from '../../Assets/ad.svg';
 import an from '../../Assets/an.svg';
 import v from '../../Assets/v.svg';
+import { memo } from 'react';
 const Page6 = ({ fadeIn }) => {
 	return (
 		<div className='page6bg'>
@@ -34,4 +35,4 @@ const Page6 = ({ fadeIn }) => {
 	);
 };
 
-export default Page6;
+export default memo(Page6);

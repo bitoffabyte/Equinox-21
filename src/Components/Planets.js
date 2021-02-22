@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, memo } from 'react';
 import Neptune from '../Assets/neptune.svg';
 import green from '../Assets/green.svg';
 import uranus from '../Assets/uranus.svg';
@@ -7,6 +7,7 @@ import purple from '../Assets/purple.svg';
 import mars from '../Assets/mars.svg';
 import Parallax from 'parallax-js';
 import './Planets.css';
+
 const layers = [
 	{
 		name: 'Planet-1',
@@ -69,4 +70,4 @@ const Planets = () => {
 	);
 };
 
-export default Planets;
+export default memo(Planets);

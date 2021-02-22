@@ -1,4 +1,5 @@
 import './Page4.css';
+import { memo } from 'react';
 const Page4 = ({ fadeIn }) => {
 	return (
 		<div className='page4bg'>
@@ -20,4 +21,4 @@ const Page4 = ({ fadeIn }) => {
 	);
 };
 
-export default Page4;
+export default memo(Page4);
