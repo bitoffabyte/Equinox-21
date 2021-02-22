@@ -15,6 +15,7 @@ import MLH from './Components/MLH';
 import Planets from './Components/Planets';
 function App() {
 	console.log('rerender');
+	const [loading, updateLoading] = useState(true);
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
 		window.addEventListener(
@@ -27,6 +28,7 @@ function App() {
 			},
 			false
 		);
+		updateLoading(false);
 		return () => {
 			window.removeEventListener(
 				'keydown',
@@ -41,52 +43,58 @@ function App() {
 		};
 	}, []);
 	return (
-		<div className='App'>
-			<MLH />
-			{/* <Planets /> */}
-			<div className='mainDiv'>
-				<FullPage
-					beforeChange={({ from, to }) => {
-						updatePage2(to);
-					}}
-					duration={1000}
-				>
-					<Slide>
-						<Page1 fadeIn={page2 === 0} />
-					</Slide>
-					<Slide>
-						<Page2 fadeIn={page2 === 1} />
-					</Slide>
-					<Slide>
-						<Page3 fadeIn={page2 === 2} />
-					</Slide>
-					<Slide>
-						<Page4 fadeIn={page2 === 3} />
-					</Slide>
-					<Slide>
-						<Page5 fadeIn={page2 === 4} />
-					</Slide>
-					<Slide>
-						<Page6 fadeIn={page2 === 5} />
-					</Slide>
-					<Slide>
-						<Page7 fadeIn={page2 === 6} />
-					</Slide>
-				</FullPage>
-			</div>
-			<div
-				style={{
-					position: 'fixed',
-					width: '100vw',
-					height: '100vh',
-					zIndex: '10',
-					top: 0,
-				}}
-			>
-				<Earth />
-				<TurningDiv />
-			</div>
-		</div>
+		<>
+			{loading ? (
+				<>Loading...</>
+			) : (
+				<div className='App'>
+					<MLH />
+					{/* <Planets /> */}
+					<div className='mainDiv'>
+						<FullPage
+							beforeChange={({ from, to }) => {
+								updatePage2(to);
+							}}
+							duration={1000}
+						>
+							<Slide>
+								<Page1 fadeIn={page2 === 0} />
+							</Slide>
+							<Slide>
+								<Page2 fadeIn={page2 === 1} />
+							</Slide>
+							<Slide>
+								<Page3 fadeIn={page2 === 2} />
+							</Slide>
+							<Slide>
+								<Page4 fadeIn={page2 === 3} />
+							</Slide>
+							<Slide>
+								<Page5 fadeIn={page2 === 4} />
+							</Slide>
+							<Slide>
+								<Page6 fadeIn={page2 === 5} />
+							</Slide>
+							<Slide>
+								<Page7 fadeIn={page2 === 6} />
+							</Slide>
+						</FullPage>
+					</div>
+					<div
+						style={{
+							position: 'fixed',
+							width: '100vw',
+							height: '100vh',
+							zIndex: '10',
+							top: 0,
+						}}
+					>
+						<Earth />
+						<TurningDiv />
+					</div>
+				</div>
+			)}
+		</>
 	);
 }
 
