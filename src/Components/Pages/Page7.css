@@ -50,9 +50,28 @@
 	height: 80%;
 	width: 100%;
 }
+.page {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	transition: all 500ms ease-in-out;
+	position: fixed;
+	opacity: 0;
+}
+.dis {
+	opacity: 0.4;
+}
+.show {
+	opacity: 1;
+	transition: all 500ms ease-in-out;
+}
 .imgs {
 	width: 8vw;
 	transition: all 500ms;
+	margin: 0% 2%;
+	cursor: pointer;
 }
 .jb {
 	width: 6vw;
@@ -62,17 +81,20 @@
 	transition: all 500ms;
 }
 .line1 {
-	width: 50%;
+	width: 80%;
+	height: 100%;
 	display: flex;
-	margin: auto;
+	margin: 1% auto;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
+
 .line2 {
-	width: 70%;
+	width: 80%;
 
 	display: flex;
-	margin: auto;
+	margin: 1% auto;
 	align-items: center;
 	justify-content: space-around;
 }
@@ -80,26 +102,24 @@
 	width: 80%;
 
 	display: flex;
-	margin: auto;
+	margin: 1% auto;
 	align-items: center;
 	justify-content: space-around;
 }
-.line4 {
-	width: 90%;
-
+.al {
+	transform: rotate(180deg);
+}
+.arrows {
+	width: 50%;
+	margin: 2% auto;
 	display: flex;
-	margin: auto;
-	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
-.line5 {
-	width: 100%;
+.arrow {
+	width: 5%;
+	cursor: pointer;
+}
 
-	display: flex;
-	margin: auto;
-	align-items: center;
-	justify-content: space-around;
-}
 @media screen and (max-width: 720px) {
 	.Page7Content {
 		width: 80vw;
@@ -107,16 +127,23 @@
 		flex-direction: column;
 	}
 	.imgs {
-		width: 10vh;
+		width: 11vh;
 	}
 	.line1,
 	.line2,
 	.line3,
 	.line4,
 	.line5 {
-		width: 100%;
+		width: 80%;
 	}
 	.jb {
 		width: 7vh;
+	}
+	.sponsors {
+		width: 100%;
+	}
+	.page {
+		width: 100%;
+		height: 80%;
 	}
 }
