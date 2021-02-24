@@ -31,6 +31,8 @@ export const EarthImg = styled.img.attrs({
 	width: 40vw;
 	height: auto;
 	animation: ${(props) => floatAnim(props.angle)} 6s ease-in-out infinite;
+	transition: transform 0.3s;
+
 	@media screen and (max-width: 720px) {
 		width: 80vw;
 	}

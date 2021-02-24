@@ -15,7 +15,7 @@ import MLH from './Components/MLH';
 import Planets from './Components/Planets';
 function App() {
 	console.log('rerender');
-	const [loading, updateLoading] = useState(true);
+	const [loading, updateLoading] = useState(false);
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
 		window.addEventListener(
@@ -28,7 +28,9 @@ function App() {
 			},
 			false
 		);
-		updateLoading(false);
+
+		setTimeout(() => updateLoading(false), 2000);
+
 		return () => {
 			window.removeEventListener(
 				'keydown',
