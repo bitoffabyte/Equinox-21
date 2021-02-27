@@ -31,7 +31,7 @@ import { memo, useState } from 'react';
 const Page7 = ({ fadeIn }) => {
 	const [page, updatePage] = useState(1);
 	const links = [
-		'https://www.amul.com/products/amul-amulya-info.php',
+		'',
 		'https://www.codingninjas.com/',
 		'https://www.digitalocean.com/',
 		'https://www.framer.com/',
@@ -46,10 +46,10 @@ const Page7 = ({ fadeIn }) => {
 		'https://interviewbuddy.in/',
 		'https://thecodex.me/',
 		'https://testmail.app/',
-		'wic.in', // not sure
+		'', // not sure
 		'https://www.girlscript.tech/home',
 		'https://www.sketch.com/',
-		'yay.in', // not sure
+		'', // not sure
 		'https://indiablockchainalliance.org/',
 	];
 	return (
