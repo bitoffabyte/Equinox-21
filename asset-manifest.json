@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/equinox-final-react/static/css/main.c7c82615.chunk.css",
-    "main.js": "/equinox-final-react/static/js/main.b0aa1760.chunk.js",
-    "main.js.map": "/equinox-final-react/static/js/main.b0aa1760.chunk.js.map",
+    "main.css": "/equinox-final-react/static/css/main.6a5bda29.chunk.css",
+    "main.js": "/equinox-final-react/static/js/main.b6c6f398.chunk.js",
+    "main.js.map": "/equinox-final-react/static/js/main.b6c6f398.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
     "runtime-main.js.map": "/equinox-final-react/static/js/runtime-main.86c67bdf.js.map",
     "static/js/2.cf0cdf09.chunk.js": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js",
     "static/js/2.cf0cdf09.chunk.js.map": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js.map",
     "index.html": "/equinox-final-react/index.html",
-    "static/css/main.c7c82615.chunk.css.map": "/equinox-final-react/static/css/main.c7c82615.chunk.css.map",
+    "static/css/main.6a5bda29.chunk.css.map": "/equinox-final-react/static/css/main.6a5bda29.chunk.css.map",
     "static/js/2.cf0cdf09.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.cf0cdf09.chunk.js.LICENSE.txt",
     "static/media/@.f866be5b.svg": "/equinox-final-react/static/media/@.f866be5b.svg",
     "static/media/Amulya.b2dcd567.svg": "/equinox-final-react/static/media/Amulya.b2dcd567.svg",
     "static/media/Apply.eae5405b.svg": "/equinox-final-react/static/media/Apply.eae5405b.svg",
     "static/media/Arrow.96b8725b.svg": "/equinox-final-react/static/media/Arrow.96b8725b.svg",
-    "static/media/Codex_LOGO.00bc63ee.png": "/equinox-final-react/static/media/Codex_LOGO.00bc63ee.png",
     "static/media/Discord.87b52b41.svg": "/equinox-final-react/static/media/Discord.87b52b41.svg",
     "static/media/Equinox_Logo.64c122cb.png": "/equinox-final-react/static/media/Equinox_Logo.64c122cb.png",
     "static/media/Facebook.1345f73a.svg": "/equinox-final-react/static/media/Facebook.1345f73a.svg",
@@ -29,6 +28,7 @@
     "static/media/bal.bfa57f3b.svg": "/equinox-final-react/static/media/bal.bfa57f3b.svg",
     "static/media/bg.c3aa72c4.svg": "/equinox-final-react/static/media/bg.c3aa72c4.svg",
     "static/media/cn.968a64fc.svg": "/equinox-final-react/static/media/cn.968a64fc.svg",
+    "static/media/codex.fd11d75a.svg": "/equinox-final-react/static/media/codex.fd11d75a.svg",
     "static/media/dev.62ec526d.svg": "/equinox-final-react/static/media/dev.62ec526d.svg",
     "static/media/do.04bcc6ea.svg": "/equinox-final-react/static/media/do.04bcc6ea.svg",
     "static/media/earth.4d579416.svg": "/equinox-final-react/static/media/earth.4d579416.svg",
@@ -59,7 +59,7 @@
   "entrypoints": [
     "static/js/runtime-main.86c67bdf.js",
     "static/js/2.cf0cdf09.chunk.js",
-    "static/css/main.c7c82615.chunk.css",
-    "static/js/main.b0aa1760.chunk.js"
+    "static/css/main.6a5bda29.chunk.css",
+    "static/js/main.b6c6f398.chunk.js"
   ]
 }
