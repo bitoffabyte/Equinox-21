@@ -55,7 +55,7 @@ const Page1 = ({ fadeIn }) => {
 						className='applyimg'
 						onClick={() =>
 							window.open(
-								'https://equinox-21.devpost.com/',
+								'https://di6oe3ych67.typeform.com/to/DKsjL0Il',
 								'_blank'
 							)
 						}
