@@ -50,7 +50,7 @@ const Page1 = ({ fadeIn }) => {
 						Apply with Devfolio
 					</button>
 					<img src = {discord}/> */}
-					<img
+					{/* <img
 						src={apply}
 						className='applyimg'
 						onClick={() =>
@@ -59,7 +59,7 @@ const Page1 = ({ fadeIn }) => {
 								'_blank'
 							)
 						}
-					/>
+					/> */}
 
 					<div className='links'>
 						<img
