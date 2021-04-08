@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/equinox-final-react/static/css/main.4bb92b57.chunk.css",
-    "main.js": "/equinox-final-react/static/js/main.b0daf59b.chunk.js",
-    "main.js.map": "/equinox-final-react/static/js/main.b0daf59b.chunk.js.map",
+    "main.js": "/equinox-final-react/static/js/main.6b18b53f.chunk.js",
+    "main.js.map": "/equinox-final-react/static/js/main.6b18b53f.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
     "runtime-main.js.map": "/equinox-final-react/static/js/runtime-main.86c67bdf.js.map",
     "static/js/2.b42e055d.chunk.js": "/equinox-final-react/static/js/2.b42e055d.chunk.js",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.86c67bdf.js",
     "static/js/2.b42e055d.chunk.js",
     "static/css/main.4bb92b57.chunk.css",
-    "static/js/main.b0daf59b.chunk.js"
+    "static/js/main.6b18b53f.chunk.js"
   ]
 }
