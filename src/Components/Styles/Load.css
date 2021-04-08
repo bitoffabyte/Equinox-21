@@ -1,7 +1,4 @@
 .vg {
-	position: absolute;
-	top: 50%;
-	left: 25%;
 	width: 20%;
 	height: auto;
 }
@@ -48,4 +45,14 @@
 	100% {
 		transform: rotate(360deg);
 	}
+}
+.loadib {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 10000000000000000;
+	background-color: aqua;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
