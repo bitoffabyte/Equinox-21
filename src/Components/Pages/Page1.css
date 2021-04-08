@@ -6,6 +6,9 @@
 	align-items: center;
 	z-index: 1000;
 }
+.Tilt {
+	z-index: 100000000000;
+}
 .Page1Content {
 	width: 50vw;
 	height: 60vh;

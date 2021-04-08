@@ -46,6 +46,17 @@ function App() {
 			<div className='App'>
 				<MLH />
 				<Bg />
+				<div
+					style={{
+						position: 'fixed',
+						width: '100vw',
+						height: '100vh',
+						zIndex: '0',
+						top: 0,
+					}}>
+					<Earth />
+					<TurningDiv />
+				</div>
 				<div className='mainDiv'>
 					<FullPage
 						beforeChange={({ from, to }) => {
@@ -74,17 +85,6 @@ function App() {
 							<Page7 fadeIn={page2 === 6} />
 						</Slide>
 					</FullPage>
-					<div
-						style={{
-							position: 'fixed',
-							width: '100vw',
-							height: '100vh',
-							zIndex: '10',
-							top: 0,
-						}}>
-						<Earth />
-						<TurningDiv />
-					</div>
 				</div>
 			</div>
 		</>

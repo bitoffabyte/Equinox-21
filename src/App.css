@@ -5,6 +5,7 @@
 	scrollbar-width: none;
 }
 .mainDiv {
+	z-index: 1999;
 	height: 700vh;
 	width: 100vw;
 	background: linear-gradient(
