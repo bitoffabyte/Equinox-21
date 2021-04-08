@@ -22,7 +22,7 @@ const Page1 = ({ fadeIn }) => {
 					/>
 				</div>
 				<div className='right'>
-					<p className='dates'>26 - 28 March</p>
+					<p className='dates'>30 April - 2 May</p>
 					<Timer />
 					{/*<button
 						id='devfolio-apply-now'
