@@ -60,7 +60,7 @@
 }
 .faq {
 	width: 90%;
-	height: 10vh;
+	height: 15vh;
 
 	background: rgba(0, 141, 200, 0.45);
 	box-shadow: 4px 0px 20px -7px rgba(0, 115, 199, 0.46);
@@ -121,7 +121,8 @@
 	margin-left: 0px;
 }
 .show {
-	height: 30vh;
+	height: 25vh;
+	width: 90% !important;
 	transition: all 0.3s;
 }
 .show .question {
@@ -150,10 +151,7 @@
 		width: 0%;
 		height: 0%;
 	}
-	.faq {
-		margin: auto;
-		height: 10vh;
-	}
+
 	.Page5Content h1 {
 		font-size: 8vh;
 		line-height: 1vw;
@@ -164,6 +162,7 @@
 	}
 	.show {
 		height: 30vh;
+		width: 90%;
 		transition: all 0.3s;
 	}
 	.answer,
@@ -185,7 +184,7 @@
 	}
 	.show .answer {
 		height: 80%;
-		font-size: 2.5vw;
+		font-size: 4.5vw;
 	}
 	.faqs {
 		flex-direction: column;

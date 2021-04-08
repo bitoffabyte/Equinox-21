@@ -7,8 +7,8 @@
 	z-index: 1000;
 }
 .Page2Content {
-	width: 70vw;
-	height: 80vh;
+	width: 60vw;
+	height: 70vh;
 
 	background: rgba(255, 255, 255, 0.027);
 	box-shadow: 3px 1px 38px -12px #00000094;
@@ -60,8 +60,8 @@
 	font-family: 'acumin-pro';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1.5vw;
-	line-height: 1.8vw;
+	font-size: 2vw;
+	line-height: 2vw;
 	text-align: justify;
 
 	color: #ffffff;
