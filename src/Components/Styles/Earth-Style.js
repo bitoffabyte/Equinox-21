@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import earth from '../../Assets/earth.svg';
+import earth from '../../Assets/Earth.png';
 
 const floatAnim = (angle) => keyframes`
 	0% {

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../Assets/moon.svg';
+import img from '../../Assets/Moon.png';
 
 export const MoonImg = styled.img.attrs({
 	src: `${img}`,

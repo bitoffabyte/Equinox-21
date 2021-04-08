@@ -3,12 +3,35 @@
 	top: 50%;
 	left: 25%;
 	width: 20%;
+	height: auto;
 }
 
 #circle {
 	transform-origin: center center;
-	animation: wobble 3s linear infinite;
+	animation: wobble 4s linear infinite;
 }
+#axis {
+	transform-origin: center center;
+	animation: wobble1 4s linear infinite;
+}
+@keyframes wobble1 {
+	0% {
+		transform: rotateY(0deg);
+	}
+	25% {
+		transform: rotateY(90deg);
+	}
+	50% {
+		transform: rotateY(180deg);
+	}
+	75% {
+		transform: rotateY(270deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
 @keyframes wobble {
 	0% {
 		transform: rotate(0deg);

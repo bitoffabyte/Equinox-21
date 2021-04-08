@@ -1,0 +1,25 @@
+.bgimg {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0;
+	animation: op 4s ease-in-out infinite;
+}
+
+@keyframes op {
+	0% {
+		opacity: 1;
+		transform: translateY(2%) scale(2);
+	}
+
+	50% {
+		opacity: 1;
+		transform: translateY(-2%) scale(1);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(2%) scale(2);
+	}
+}

@@ -12,8 +12,8 @@ import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
 import { useState, useEffect, memo } from 'react';
 import MLH from './Components/MLH';
-import Planets from './Components/Planets';
 import Load from './Components/Styles/Load';
+import Bg from './Components/Bg';
 function App() {
 	console.log('rerender');
 	const [loading, updateLoading] = useState(true);
@@ -49,7 +49,7 @@ function App() {
 		<>
 			<div className='App'>
 				<MLH />
-				{/* <Planets /> */}
+				<Bg />
 				<div className='mainDiv'>
 					{loading ? (
 						<>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../Assets/sun.svg';
+import img from '../../Assets/Sun.png';
 export const SunImg = styled.img.attrs({
 	src: `${img}`,
 })`
