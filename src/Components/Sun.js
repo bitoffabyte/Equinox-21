@@ -4,4 +4,4 @@ const Sun = () => {
 	return <SunImg />;
 };
 
-export default memo(Sun);
+export default Sun;

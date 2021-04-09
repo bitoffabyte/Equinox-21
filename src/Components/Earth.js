@@ -10,4 +10,4 @@ const Earth = () => {
 	);
 };
 
-export default memo(Earth);
+export default Earth;

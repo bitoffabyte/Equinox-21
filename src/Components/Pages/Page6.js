@@ -35,4 +35,4 @@ const Page6 = ({ fadeIn }) => {
 	);
 };
 
-export default memo(Page6);
+export default Page6;

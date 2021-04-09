@@ -4,4 +4,4 @@ const Moon = () => {
 	return <MoonImg />;
 };
 
-export default memo(Moon);
+export default Moon;

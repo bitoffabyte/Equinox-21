@@ -27,6 +27,7 @@ const Page1 = ({ fadeIn }) => {
 				<div className='right'>
 					<p className='dates'>30 April - 2 May</p>
 					<Timer />
+					<br />
 					{/*<button
 						id='devfolio-apply-now'
 						onClick={() => {
@@ -53,7 +54,7 @@ const Page1 = ({ fadeIn }) => {
 						Apply with Devfolio
 					</button>
 					<img src = {discord}/> */}
-					<img
+					{/* <img
 						src={apply}
 						className='applyimg'
 						onClick={() =>
@@ -62,8 +63,18 @@ const Page1 = ({ fadeIn }) => {
 								'_blank'
 							)
 						}
-					/>
-
+					/> */}
+					<div
+						className='regNow'
+						onClick={() =>
+							window.open(
+								'https://di6oe3ych67.typeform.com/to/DKsjL0Il',
+								'_blank'
+							)
+						}>
+						Register Now
+					</div>
+					<br />
 					<div className='links'>
 						<i
 							className='fas fa-phone-alt linklogos at '
@@ -117,4 +128,4 @@ const Page1 = ({ fadeIn }) => {
 	);
 };
 
-export default memo(Page1);
+export default Page1;

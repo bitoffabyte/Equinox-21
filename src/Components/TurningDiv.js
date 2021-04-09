@@ -18,4 +18,4 @@ const TurningDivs = () => {
 		</TurningDiv>
 	);
 };
-export default memo(TurningDivs);
+export default TurningDivs;

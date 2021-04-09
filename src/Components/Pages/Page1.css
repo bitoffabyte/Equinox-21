@@ -104,10 +104,26 @@
 #devfolio-apply-now:hover {
 	background-color: #2954bf !important;
 }
+.regNow {
+	cursor: pointer;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 120%;
+	color: #ffffff;
+	background-color: #3770ff;
+	width: 50%;
+	height: 7%;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.2);
+}
 .links {
 	display: flex;
 	margin-top: 5%;
-	width: 48%;
+	width: 50%;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -160,6 +176,22 @@
 		flex-direction: column;
 		opacity: 1;
 	}
+	.regNow {
+		cursor: pointer;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100%;
+		color: #ffffff;
+		background-color: #3770ff;
+		width: 50%;
+		height: 12%;
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: scale(1.2);
+	}
 }
 
 @media screen and (max-width: 720px) {
@@ -184,6 +216,10 @@
 		align-items: center;
 		justify-content: center;
 	}
+	.right {
+		/* height: 60%; */
+		justify-content: flex-start;
+	}
 	.dates {
 		font-size: 6vw;
 	}
@@ -199,6 +235,7 @@
 	}
 	.links {
 		width: 70%;
+		margin-top: 0;
 	}
 	.dates {
 		margin-top: 5%;

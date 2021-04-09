@@ -23,3 +23,8 @@
 		transform: translateY(2%) scale(2);
 	}
 }
+
+@media screen and (max-width: 720px) {
+	.bging {
+	}
+}

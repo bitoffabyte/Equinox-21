@@ -55,4 +55,4 @@ const Timer = () => {
 	);
 };
 
-export default memo(Timer);
+export default Timer;

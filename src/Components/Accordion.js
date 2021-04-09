@@ -20,13 +20,13 @@ const Accordion = ({ title, body, state, updateState, updateHandler, s }) => {
 	};
 	return (
 		<div className='accordion'>
-			<button
+			<div
 				className='accordion__button'
 				type='button'
 				style={style2}
 				onClick={onButtonClick}>
 				{title}
-			</button>
+			</div>
 			<div className='accordion__drawer' style={style}>
 				<p className='accordion__paragraph' ref={ref}>
 					{body}{' '}

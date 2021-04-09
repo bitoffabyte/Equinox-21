@@ -13,3 +13,9 @@
 .tim p {
 	text-align: center;
 }
+@media screen and (max-width: 720px) {
+	.timer {
+		font-size: 10vw;
+		margin-bottom: 0;
+	}
+}
