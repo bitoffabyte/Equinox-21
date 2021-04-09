@@ -8,26 +8,26 @@ import phone from '../../Assets/Phone.svg';
 import apply from '../../Assets/Apply.svg';
 import { useState, memo } from 'react';
 import Timer from '../Timer';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 
 const Page1 = ({ fadeIn }) => {
 	const [show, updateShow] = useState(false);
 
 	return (
-		<Tilt className='Tilt' options={{ max: 25, scale: 1 }}>
-			<div className='page1bg'>
-				<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
-					<div className='left'>
-						<img
-							src={logo}
-							alt='Equinox Logo'
-							className='equinoxlogo'
-						/>
-					</div>
-					<div className='right'>
-						<p className='dates'>30 April - 2 May</p>
-						<Timer />
-						{/*<button
+		// <Tilt glareEnable={true} glareMaxOpacity={1} glareColor='#ffffff'>
+		<div className='page1bg'>
+			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
+				<div className='left'>
+					<img
+						src={logo}
+						alt='Equinox Logo'
+						className='equinoxlogo'
+					/>
+				</div>
+				<div className='right'>
+					<p className='dates'>30 April - 2 May</p>
+					<Timer />
+					{/*<button
 						id='devfolio-apply-now'
 						onClick={() => {
 							window.open(
@@ -53,74 +53,74 @@ const Page1 = ({ fadeIn }) => {
 						Apply with Devfolio
 					</button>
 					<img src = {discord}/> */}
+					<img
+						src={apply}
+						className='applyimg'
+						onClick={() =>
+							window.open(
+								'https://di6oe3ych67.typeform.com/to/DKsjL0Il',
+								'_blank'
+							)
+						}
+					/>
+
+					<div className='links'>
 						<img
-							src={apply}
-							className='applyimg'
-							onClick={() =>
-								window.open(
-									'https://di6oe3ych67.typeform.com/to/DKsjL0Il',
-									'_blank'
-								)
-							}
+							src={phone}
+							className='linklogos at'
+							onClick={() => {
+								updateShow((prev) => !prev);
+							}}
 						/>
 
-						<div className='links'>
-							<img
-								src={phone}
-								className='linklogos at'
-								onClick={() => {
-									updateShow((prev) => !prev);
-								}}
-							/>
-
-							<img
-								src={at}
-								className='linklogos at'
-								onClick={() => {
-									window.open(
-										'mailto: equinox.robovitics@gmail.com',
-										'_blank'
-									);
-								}}
-							/>
-							<img
-								src={insta}
-								className='linklogos'
-								onClick={() => {
-									window.open(
-										'https://www.instagram.com/equinox_robovitics/',
-										'_blank'
-									);
-								}}
-							/>
-							<img
-								src={facebook}
-								className='linklogos'
-								onClick={() => {
-									window.open(
-										'https://www.facebook.com/Equinox-Robovitics-110054387359678',
-										'_blank'
-									);
-								}}
-							/>
-							<img
-								src={discord}
-								className='linklogos'
-								onClick={() => {
-									window.open(
-										'https://discord.gg/EfV4kK3Bgu',
-										'_blank'
-									);
-								}}
-							/>
-						</div>
-						<p className={`contact ${show ? 'showContact' : ''}`}>
-							Contact: +91 98980 56388
-						</p>
+						<img
+							src={at}
+							className='linklogos at'
+							onClick={() => {
+								window.open(
+									'mailto: equinox.robovitics@gmail.com',
+									'_blank'
+								);
+							}}
+						/>
+						<img
+							src={insta}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://www.instagram.com/equinox_robovitics/',
+									'_blank'
+								);
+							}}
+						/>
+						<img
+							src={facebook}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://www.facebook.com/Equinox-Robovitics-110054387359678',
+									'_blank'
+								);
+							}}
+						/>
+						<img
+							src={discord}
+							className='linklogos'
+							onClick={() => {
+								window.open(
+									'https://discord.gg/EfV4kK3Bgu',
+									'_blank'
+								);
+							}}
+						/>
 					</div>
+					<p className={`contact ${show ? 'showContact' : ''}`}>
+						Contact: +91 98980 56388
+					</p>
 				</div>
 			</div>
-		</Tilt>
+		</div>
+		// </Tilt>
 	);
 };
 

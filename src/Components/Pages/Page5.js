@@ -2,8 +2,8 @@ import './Page5.css';
 import useDimension from '../../useDimensions';
 import { useState, memo } from 'react';
 import arrow from '../../Assets/Arrow.svg';
-import Tilt from 'react-tilt';
-
+import Accordion from '../Accordion';
+import { FAQ as data } from './faq-data';
 const Page5 = ({ fadeIn }) => {
 	const { width, height } = useDimension();
 	const [show1, updateShow1] = useState(false);
@@ -13,173 +13,86 @@ const Page5 = ({ fadeIn }) => {
 	const [show5, updateShow5] = useState(false);
 	const [show6, updateShow6] = useState(false);
 	const [page, updatePage] = useState(1);
-
+	const updateHandler = (func, s) => {
+		updateShow1(false);
+		updateShow2(false);
+		updateShow3(false);
+		updateShow4(false);
+		updateShow5(false);
+		updateShow6(false);
+		func(s);
+	};
 	return (
-		<Tilt className='Tilt' options={{ max: 25, scale: 1 }}>
-			<div className='page5bg'>
-				<div className={`Page5Content ${fadeIn ? 'fadeIn' : ''} `}>
-					<h1>FAQs</h1>
-					<div className='faqs'>
-						<div
-							className={`leftfaq ${
-								page == 1 ? 'pageReveal' : ''
-							}`}>
-							<div
-								className={`faq ${show1 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow1((prev) => !prev);
-									updateShow2(false);
-									updateShow3(false);
-									updateShow4(false);
-									updateShow5(false);
-									updateShow6(false);
-								}}>
-								<div className='question'>
-									{' '}
-									What are the rules?
-								</div>
-								<div className='answer'>
-									We want our Hack to be fun and fair to
-									everyone. Your project should be started
-									from scratch and worked on only during the
-									36 hours, and you may only incorporate
-									outside resources (code, graphics, sound,
-									etc) that are freely licensed and accessible
-									to all participants equally. Of course,
-									maintain a positive, respectful attitude
-									toward your fellow hackers throughout the
-									event. We ask that all attendees follow the{' '}
-									<a
-										href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'
-										target='_blank'
-										className='anchor'>
-										MLH Code of Conduct.
-									</a>
-								</div>
-							</div>
-							<div
-								className='faq'
-								className={`faq ${show2 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow2((prev) => !prev);
-									updateShow1(false);
-									updateShow3(false);
-									updateShow4(false);
-									updateShow5(false);
-									updateShow6(false);
-								}}>
-								<div className='question'>
-									{' '}
-									What can I build?
-								</div>
-								<div className='answer'>
-									You can build whatever your heart desires,
-									whether it’s a web app, mobile app, hardware
-									hack, or an open source tool. Our main focus
-									is to bring you a learning experience where
-									you can have fun, ask questions, and
-									experiment with technology.
-								</div>
-							</div>
-							<div
-								className={`faq ${show3 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow3((prev) => !prev);
-									updateShow2(false);
-									updateShow1(false);
-									updateShow4(false);
-									updateShow5(false);
-									updateShow6(false);
-								}}>
-								<div className='question'>
-									{' '}
-									Are hardware hacks allowed?
-								</div>
-								<div className='answer'>Yes, of course!</div>
-							</div>
-						</div>
-						<div
-							className={`rightfaq ${
-								page == 2 ? 'pageReveal' : ''
-							}`}>
-							<div
-								className={`faq ${show4 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow4((prev) => !prev);
-									updateShow2(false);
-									updateShow3(false);
-									updateShow1(false);
-									updateShow5(false);
-									updateShow6(false);
-								}}>
-								<div className='question'>
-									{' '}
-									How much does it cost?
-								</div>
-								<div className='answer'>
-									Thanks to the generosity of our sponsors,
-									we’re able to put up events like these for
-									free.
-								</div>
-							</div>
-							<div
-								className={`faq ${show5 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow5((prev) => !prev);
-									updateShow2(false);
-									updateShow3(false);
-									updateShow4(false);
-									updateShow1(false);
-									updateShow6(false);
-								}}>
-								<div className='question'>
-									{' '}
-									How many people in a team?
-								</div>
-								<div className='answer'>
-									Two to Five members per team.
-								</div>
-							</div>
-							<div
-								className={`faq ${show6 ? 'show' : ''}`}
-								onClick={() => {
-									updateShow6((prev) => !prev);
-									updateShow2(false);
-									updateShow3(false);
-									updateShow4(false);
-									updateShow5(false);
-									updateShow1(false);
-								}}>
-								<div className='question'>
-									I still have a question...
-								</div>
-								<div className='answer'>
-									We’d be happy to help! Send the inquiry over
-									to robovitics@vit.ac.in and we’ll get back
-									to you as soon as possible or call +91 98673
-									48865.
-								</div>
-							</div>
-						</div>
-						{width < 720 ? (
-							<div className='btnBt'>
-								<img
-									src={arrow}
-									style={{ transform: 'rotate(180deg)' }}
-									className={`btn ${page == 1 ? 'dis' : ''}`}
-									onClick={() => updatePage(1)}
-								/>
-								<img
-									src={arrow}
-									className={`btn ${page == 2 ? 'dis' : ''}`}
-									onClick={() => updatePage(2)}
-								/>
-							</div>
-						) : null}
+		<div className='page5bg'>
+			<div className={`Page5Content ${fadeIn ? 'fadeIn' : ''} `}>
+				<h1>FAQs</h1>
+				<div className='faqs'>
+					<div className={`leftfaq ${page == 1 ? 'pageReveal' : ''}`}>
+						<Accordion
+							title={data[0].q}
+							body={data[0].a}
+							state={show1}
+							updateState={updateShow1}
+							updateHandler={updateHandler}
+							s={true}
+						/>
+						<Accordion
+							title={data[1].q}
+							body={data[1].a}
+							state={show2}
+							updateState={updateShow2}
+							updateHandler={updateHandler}
+						/>
+						<Accordion
+							title={data[2].q}
+							body={data[2].a}
+							state={show3}
+							updateState={updateShow3}
+							updateHandler={updateHandler}
+						/>
 					</div>
+					<div
+						className={`rightfaq ${page == 2 ? 'pageReveal' : ''}`}>
+						<Accordion
+							title={data[3].q}
+							body={data[3].a}
+							state={show4}
+							updateState={updateShow4}
+							updateHandler={updateHandler}
+						/>
+						<Accordion
+							title={data[4].q}
+							body={data[4].a}
+							state={show5}
+							updateState={updateShow5}
+							updateHandler={updateHandler}
+						/>
+						<Accordion
+							title={data[5].q}
+							body={data[5].a}
+							state={show6}
+							updateState={updateShow6}
+							updateHandler={updateHandler}
+						/>
+					</div>
+					{width < 720 ? (
+						<div className='btnBt'>
+							<img
+								src={arrow}
+								style={{ transform: 'rotate(180deg)' }}
+								className={`btn ${page == 1 ? 'dis' : ''}`}
+								onClick={() => updatePage(1)}
+							/>
+							<img
+								src={arrow}
+								className={`btn ${page == 2 ? 'dis' : ''}`}
+								onClick={() => updatePage(2)}
+							/>
+						</div>
+					) : null}
 				</div>
 			</div>
-		</Tilt>
+		</div>
 	);
 };
 

@@ -22,10 +22,10 @@
 	transition: all 500ms;
 	transition: all 500ms;
 
-	background: rgba(255, 255, 255, 0.027);
-	box-shadow: 3px 1px 38px -12px #00000094;
-	border-radius: 28px;
-	backdrop-filter: blur(50px);
+	background: rgba(255, 255, 255, 0.027) !important;
+	box-shadow: 3px 1px 38px -12px #00000094 !important;
+	border-radius: 28px !important;
+	backdrop-filter: blur(50px) !important;
 }
 .fadeIn {
 	opacity: 1;

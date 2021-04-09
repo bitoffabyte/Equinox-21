@@ -1,0 +1,72 @@
+.accordion {
+	width: 80%;
+	margin: 5rem auto;
+	position: relative;
+}
+
+.accordion__button {
+	padding: 1rem;
+	border: none;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	background: rgba(56, 183, 237, 0.45);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(20px);
+	/* Note: backdrop-filter has minimal browser support */
+	cursor: pointer;
+	border-radius: 28px;
+	/* border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px; */
+	transition: all 0.2s ease-in-out;
+
+	font-family: 'acumin-pro';
+	font-style: normal;
+	font-size: 200%;
+	/* font-weight: 500;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: right; */
+
+	color: #ffffff;
+}
+
+.accordion__drawer {
+	overflow: hidden;
+	transition: all 0.2s ease-in-out;
+	background: rgb(56, 183, 237);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(20px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 28px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.accordion__paragraph {
+	margin: 0;
+	padding: 1rem;
+	font-family: 'acumin-pro';
+	font-style: normal;
+	font-size: 100%;
+
+	color: #ffffff;
+}
+.accordion__paragraph a {
+	font-family: 'acumin-pro';
+	font-style: bold;
+	font-size: 100%;
+
+	color: #ffffff;
+}
+
+@media screen and (max-width: 720px) {
+	.accordion {
+		width: 80%;
+		margin: 1rem auto;
+		position: relative;
+	}
+	.accordion__button {
+		font-size: 150%;
+	}
+}
