@@ -59,6 +59,7 @@ function App() {
 				</div>
 				<div className='mainDiv'>
 					<FullPage
+						normalScrollElements='.carou'
 						beforeChange={({ from, to }) => {
 							updatePage2(to);
 						}}

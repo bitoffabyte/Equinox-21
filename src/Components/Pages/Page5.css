@@ -236,7 +236,7 @@
 	}
 	.carou {
 		width: 100%;
-		overflow: auto;
+		overflow: none;
 		position: relative;
 		z-index: 100000000000000;
 	}
