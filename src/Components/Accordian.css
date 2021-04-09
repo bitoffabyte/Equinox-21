@@ -1,6 +1,6 @@
 .accordion {
 	width: 80%;
-	margin: 5rem auto;
+	margin: 1% auto;
 	position: relative;
 }
 
@@ -62,11 +62,15 @@
 
 @media screen and (max-width: 720px) {
 	.accordion {
-		width: 80%;
+		position: absolute;
+		width: 90%;
 		margin: 1rem auto;
 		position: relative;
 	}
+	.accordion__drawer {
+		/* position: absolute; */
+	}
 	.accordion__button {
-		font-size: 150%;
+		font-size: 100%;
 	}
 }
