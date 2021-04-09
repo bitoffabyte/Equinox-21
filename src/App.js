@@ -79,11 +79,11 @@ function App() {
 						<Slide>
 							<Page5 fadeIn={page2 === 4} />
 						</Slide>
-						<Slide>
+						{/* <Slide>
 							<Page6 fadeIn={page2 === 5} />
-						</Slide>
+						</Slide> */}
 						<Slide>
-							<Page7 fadeIn={page2 === 6} />
+							<Page7 fadeIn={page2 === 5} />
 						</Slide>
 					</FullPage>
 				</div>
