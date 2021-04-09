@@ -113,14 +113,17 @@
 }
 .linklogos {
 	margin: 2%;
-	width: 16%;
 	cursor: pointer;
+	color: white;
+	/* transform: scale(1.8); */
+	font-size: 200%;
+	transition: all 0.5s;
 }
 .at {
 	width: 13%;
 }
 .linklogos:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	transition: all 0.5s;
 }
 .contact {

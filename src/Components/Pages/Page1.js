@@ -65,54 +65,47 @@ const Page1 = ({ fadeIn }) => {
 					/>
 
 					<div className='links'>
-						<img
-							src={phone}
-							className='linklogos at'
+						<i
+							className='fas fa-phone-alt linklogos at '
 							onClick={() => {
 								updateShow((prev) => !prev);
-							}}
-						/>
+							}}></i>
 
-						<img
-							src={at}
-							className='linklogos at'
+						<i
+							className='fas fa-at linklogos at'
 							onClick={() => {
 								window.open(
 									'mailto: equinox.robovitics@gmail.com',
 									'_blank'
 								);
-							}}
-						/>
-						<img
-							src={insta}
-							className='linklogos'
+							}}></i>
+
+						<i
+							className='fab fa-instagram linklogos at '
 							onClick={() => {
 								window.open(
 									'https://www.instagram.com/equinox_robovitics/',
 									'_blank'
 								);
-							}}
-						/>
-						<img
-							src={facebook}
-							className='linklogos'
+							}}></i>
+
+						<i
+							className='fab fa-facebook-square linklogos at'
 							onClick={() => {
 								window.open(
 									'https://www.facebook.com/Equinox-Robovitics-110054387359678',
 									'_blank'
 								);
-							}}
-						/>
-						<img
-							src={discord}
-							className='linklogos'
+							}}></i>
+
+						<i
+							className='fab fa-discord linklogos at '
 							onClick={() => {
 								window.open(
 									'https://discord.gg/EfV4kK3Bgu',
 									'_blank'
 								);
-							}}
-						/>
+							}}></i>
 					</div>
 					<p className={`contact ${show ? 'showContact' : ''}`}>
 						Contact: +91 98980 56388
