@@ -1,4 +1,4 @@
-import './Page6.css';
+// import './Page6.css';
 import ad from '../../Assets/ad.svg';
 import an from '../../Assets/an.svg';
 import v from '../../Assets/v.svg';

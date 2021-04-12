@@ -227,16 +227,23 @@
 		</script>
 
 		<script>
-			var particleNumber = 900;
-			let windowWidth = document.width;
+			let particleNumber = 900;
+			let windowWidth = window.screen.width;
+			// alert(windowWidth);
+			if ((windowWidth < 800) & (windowWidth > 400)) {
+				particleNumber = 600;
+			}
+			if (windowWidth <= 720) {
+				particleNumber = 200;
+			}
 			const rs = () => {
-				windowWidth = document.width;
+				windowWidth = window.screen.width;
 				if ((windowWidth < 800) & (windowWidth > 400)) {
 					particleNumber = 600;
-				} else if (windowWidth <= 400) {
+				}
+				if (windowWidth <= 720) {
 					particleNumber = 400;
 				}
-				console.log(particleNumber);
 			};
 
 			var Stars = {

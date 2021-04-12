@@ -12,6 +12,7 @@ import Page7 from './Components/Pages/Page7';
 import { useState, useEffect, memo } from 'react';
 import MLH from './Components/MLH';
 import Bg from './Components/Bg';
+import PPage6 from './Components/Pages/PPage6';
 function App() {
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
@@ -78,11 +79,11 @@ function App() {
 						<Slide>
 							<Page5 fadeIn={page2 === 4} />
 						</Slide>
-						{/* <Slide>
-							<Page6 fadeIn={page2 === 5} />
-						</Slide> */}
 						<Slide>
-							<Page7 fadeIn={page2 === 5} />
+							<PPage6 fadeIn={page2 === 5} />
+						</Slide>
+						<Slide>
+							<Page7 fadeIn={page2 === 6} />
 						</Slide>
 					</FullPage>
 				</div>
