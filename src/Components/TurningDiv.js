@@ -5,7 +5,7 @@ import Sun from './Sun';
 import useDimension from '../useDimensions';
 import { TurningDiv } from './Styles/TurningDiv-Style';
 const TurningDivs = () => {
-	const scroll = useScroll();
+	const [scroll] = useScroll();
 	const [radius, updateRadius] = useState(0);
 	const { height, width } = useDimension();
 	useEffect(() => {

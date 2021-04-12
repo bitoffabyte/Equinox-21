@@ -2,7 +2,6 @@ import './App.css';
 import Earth from './Components/Earth';
 import Page1 from './Components/Pages/Page1';
 import { FullPage, Slide } from 'react-full-page';
-
 import TurningDiv from './Components/TurningDiv';
 import Page2 from './Components/Pages/Page2';
 import Page3 from './Components/Pages/Page3';
@@ -14,7 +13,6 @@ import { useState, useEffect, memo } from 'react';
 import MLH from './Components/MLH';
 import Bg from './Components/Bg';
 function App() {
-	console.log('rerender');
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
 		window.addEventListener(
@@ -44,6 +42,7 @@ function App() {
 	return (
 		<>
 			<div className='App'>
+				{/* <MouseTrails /> */}
 				<MLH />
 				<Bg />
 				<div

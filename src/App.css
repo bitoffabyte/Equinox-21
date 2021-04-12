@@ -2,7 +2,7 @@
 	display: none;
 }
 * {
-	scrollbar-width: none;
+	/* scrollbar-width: none; */
 }
 .mainDiv {
 	z-index: 1999;

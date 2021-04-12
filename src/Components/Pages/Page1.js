@@ -10,12 +10,12 @@ import { useState, memo } from 'react';
 import Timer from '../Timer';
 import Tilt from 'react-parallax-tilt';
 
-const Page1 = ({ fadeIn }) => {
+const Page1 = ({ fadeIn, reff }) => {
 	const [show, updateShow] = useState(false);
 
 	return (
 		// <Tilt glareEnable={true} glareMaxOpacity={1} glareColor='#ffffff'>
-		<div className='page1bg'>
+		<div className='page1bg' ref={reff}>
 			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<div className='left'>
 					<img
@@ -68,7 +68,7 @@ const Page1 = ({ fadeIn }) => {
 						className='regNow'
 						onClick={() =>
 							window.open(
-								'https://di6oe3ych67.typeform.com/to/DKsjL0Il',
+								'https://equinoxhack.typeform.com/to/DKsjL0Il',
 								'_blank'
 							)
 						}>

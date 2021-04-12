@@ -1,9 +1,9 @@
 import './Page2.css';
 import { memo } from 'react';
 
-const Page2 = ({ fadeIn }) => {
+const Page2 = ({ fadeIn, reff }) => {
 	return (
-		<div className='page2bg'>
+		<div className='page2bg' ref={reff}>
 			<div className={`Page2Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<h1>ABOUT EQUINOX</h1>
 				<div className='aboutStuff'>

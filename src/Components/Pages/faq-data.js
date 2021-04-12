@@ -16,7 +16,7 @@ export const FAQ = [
 
 	{
 		q: 'How big can my team be? ',
-		a: `You can register solo but as they say “the more the merrier”, so we advise you to show up with 2-5 stars in your cluster. If you do not have a team, you can interact with the other participants over our Discord Server and form your ideal cluster of stars!`,
+		a: `You can register solo but as they say “the more the merrier”, so we advise you to show up with 2-4 stars in your cluster. If you do not have a team, you can interact with the other participants over our Discord Server and form your ideal cluster of stars!`,
 	},
 
 	{

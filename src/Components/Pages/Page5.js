@@ -6,7 +6,7 @@ import Accordion from '../Accordion';
 import { FAQ as data } from './faq-data';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-const Page5 = ({ fadeIn }) => {
+const Page5 = ({ fadeIn, reff }) => {
 	const { width, height } = useDimension();
 	const [show1, updateShow1] = useState(false);
 	const [show2, updateShow2] = useState(false);
@@ -41,7 +41,7 @@ const Page5 = ({ fadeIn }) => {
 	};
 
 	return (
-		<div className='page5bg'>
+		<div className='page5bg' ref={reff}>
 			<div className={`Page5Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<h1>FAQs</h1>
 
@@ -181,18 +181,10 @@ const Page5 = ({ fadeIn }) => {
 						className='btn'
 						onClick={() =>
 							updatePage((prev) => {
-								if (width > 720)
-									if (prev == 2) {
-										return 2;
-									} else {
-										return prev + 1;
-									}
-								else {
-									if (prev == 4) {
-										return 4;
-									} else {
-										return prev + 1;
-									}
+								if (prev == 4) {
+									return 4;
+								} else {
+									return prev + 1;
 								}
 							})
 						}

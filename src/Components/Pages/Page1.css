@@ -186,11 +186,17 @@
 		background-color: #3770ff;
 		width: 50%;
 		height: 12%;
-		border-radius: 15px;
+		border-radius: 12px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		transform: scale(1.2);
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.links {
+		width: 20vw;
 	}
 }
 

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 export const useScroll = () => {
 	const [scroll, updateScroll] = useState(0);
+	var scrollPostion;
 	const scrollAnim = () => {
 		const getDocHeight = () => {
 			return Math.max(
@@ -17,11 +18,9 @@ export const useScroll = () => {
 		const winHeight = window.innerHeight;
 		const docHeight = getDocHeight();
 		const totalDocScrollLength = docHeight - winHeight;
-		// console.log(scrollTop);
-		const scrollPostion = Math.floor(
-			(scrollTop / totalDocScrollLength) * 100
-		);
+		scrollPostion = Math.floor((scrollTop / totalDocScrollLength) * 100);
 		updateScroll(scrollPostion);
+		console.log(scrollPostion);
 	};
 	useEffect(() => {
 		function watchScroll() {
@@ -32,5 +31,5 @@ export const useScroll = () => {
 			window.removeEventListener('scroll', scrollAnim);
 		};
 	});
-	return scroll;
+	return [scroll, scrollPostion];
 };

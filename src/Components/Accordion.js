@@ -2,11 +2,13 @@ import { useRef, useState } from 'react';
 import './Accordian.css';
 const Accordion = ({ title, body, state, updateState, updateHandler, s }) => {
 	const [openHeight, setOpenHeight] = useState(0);
+	const [ssd, sssd] = useState(false);
 	const ref = useRef();
 	const onButtonClick = () => {
 		setOpenHeight(ref.current.offsetHeight);
 		// setIsOpen((prev) => !prev);
 		updateHandler(updateState, !state);
+		sssd((prev) => !prev);
 	};
 
 	const style = {

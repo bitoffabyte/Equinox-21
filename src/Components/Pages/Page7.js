@@ -24,12 +24,14 @@ import gs from '../../Assets/Sponsors/GsLogo_White.png';
 import sk from '../../Assets/Sponsors/sketch-logo-light.svg';
 import ya from '../../Assets/Sponsors/YAY_Logo1.png';
 import iba from '../../Assets/Sponsors/iba.webp';
-
+import vibe from '../../Assets/Sponsors/vibe.jpg';
+import absr from '../../Assets/Sponsors/absr.jpg';
 import arrow from '../../Assets/Arrow.svg';
 
 import { memo, useState } from 'react';
-const Page7 = ({ fadeIn }) => {
-	const [page, updatePage] = useState(1);
+import { Carousel } from 'react-responsive-carousel';
+const Page7 = ({ fadeIn, reff }) => {
+	const [page, updatePage] = useState(0);
 	const links = [
 		'',
 		'https://www.codingninjas.com/',
@@ -51,14 +53,26 @@ const Page7 = ({ fadeIn }) => {
 		'https://www.sketch.com/',
 		'', // not sure
 		'https://indiablockchainalliance.org/',
+		'https://vibestore.in',
+		'http://absr.in/web20/default.html',
 	];
 	return (
-		<div className='page7bg'>
+		<div className='page7bg' ref={reff}>
 			<div className={`Page7Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<h1>SPONSORS</h1>
 
 				<div className='sponsors '>
-					<div className={`page ${page == 1 ? 'show' : ''}`}>
+					<Carousel
+						autoPlay={false}
+						emulateTouch={true}
+						showIndicators={false}
+						showArrows={false}
+						showStatus={false}
+						transitionTime={200}
+						selectedItem={page}
+						emulateTouch={false}
+						swipeable={false}
+						className='carou'>
 						<div className='line1' style={{ zIndex: 1000 }}>
 							<a href={links[0]} className='imgs' target='_blank'>
 								<img src={am} className='imgs' />
@@ -127,8 +141,7 @@ const Page7 = ({ fadeIn }) => {
 								<img src={codex} className='imgs' />
 							</a>
 						</div>
-					</div>
-					<div className={`page${page == 2 ? ' show' : ''}`}>
+
 						<div className='line1'>
 							<a
 								href={links[14]}
@@ -171,19 +184,31 @@ const Page7 = ({ fadeIn }) => {
 								target='_blank'>
 								<img src={iba} className='imgs' />
 							</a>
+							<a
+								href={links[20]}
+								className='imgs'
+								target='_blank'>
+								<img src={vibe} className='imgs' />
+							</a>
+							<a
+								href={links[21]}
+								className='imgs'
+								target='_blank'>
+								<img src={absr} className='imgs' />
+							</a>
 						</div>
-					</div>
+					</Carousel>
 				</div>
 				<div className='arrows'>
 					<img
 						src={arrow}
 						className={`al arrow ${page == 1 ? 'dis' : ''}`}
-						onClick={() => updatePage(1)}
+						onClick={() => updatePage(0)}
 					/>
 					<img
 						src={arrow}
 						className={`arrow ${page == 2 ? 'dis' : ''}`}
-						onClick={() => updatePage(2)}
+						onClick={() => updatePage(1)}
 					/>
 				</div>
 			</div>
