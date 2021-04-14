@@ -56,6 +56,7 @@ const Page7 = ({ fadeIn, reff }) => {
 		'https://indiablockchainalliance.org/',
 		'https://vibestore.in',
 		'http://absr.in/web20/default.html',
+		'https://cosmosindia.network/',
 	];
 	return (
 		<div className='page7bg' ref={reff}>
@@ -118,7 +119,7 @@ const Page7 = ({ fadeIn, reff }) => {
 
 						<div className='line1'>
 							<a
-								href={links[21]}
+								href={links[22]}
 								className='imgs'
 								target='_blank'>
 								<img src={cos} className='imgs' />
