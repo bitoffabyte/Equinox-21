@@ -117,10 +117,10 @@ const Page7 = ({ fadeIn, reff }) => {
 
 						<div className='line1'>
 							<a
-								href={links[10]}
+								href={links[21]}
 								className='imgs'
 								target='_blank'>
-								<img src={bal} className='imgs' />
+								<img src={cos} className='imgs' />
 							</a>
 
 							<a
@@ -190,17 +190,18 @@ const Page7 = ({ fadeIn, reff }) => {
 								target='_blank'>
 								<img src={vibe} className='imgs' />
 							</a>
+
 							<a
-								href={links[21]}
+								href={links[10]}
 								className='imgs'
 								target='_blank'>
-								<img src={absr} className='imgs' />
+								<img src={bal} className='imgs' />
 							</a>
 							<a
 								href={links[21]}
 								className='imgs'
 								target='_blank'>
-								<img src={cos} className='imgs' />
+								<img src={absr} className='imgs' />
 							</a>
 						</div>
 					</Carousel>

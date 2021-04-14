@@ -26,6 +26,10 @@
 	box-shadow: 3px 1px 38px -12px #00000094;
 	border-radius: 28px;
 	backdrop-filter: blur(50px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
 }
 .Page2Content h1 {
 	font-family: Uni Sans Demo;

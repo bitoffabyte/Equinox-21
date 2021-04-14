@@ -59,6 +59,14 @@
 	text-align: center;
 	color: #ffffff;
 	margin-top: -20%;
+	font-family: 'acumin-pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2vw;
+	line-height: 2vw;
+	text-align: justify;
+
+	color: #ffffff;
 }
 @media screen and (max-width: 720px) {
 	.Page3Content {

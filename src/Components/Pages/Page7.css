@@ -117,10 +117,15 @@
 	margin: 2% auto;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	z-index: 1000000;
+	margin-top: 5%;
 }
 .arrow {
 	width: 5%;
 	cursor: pointer;
+	position: relative;
+	z-index: 1000000;
 }
 
 @media screen and (max-width: 720px) {
@@ -131,6 +136,7 @@
 	}
 	.imgs {
 		width: 11vh;
+		margin: 2%;
 	}
 	.line1,
 	.line2,

@@ -26,6 +26,7 @@
 	box-shadow: 3px 1px 38px -12px #00000094 !important;
 	border-radius: 28px !important;
 	backdrop-filter: blur(50px) !important;
+	-webkit-backdrop-filter: blur(20px);
 }
 .fadeIn {
 	opacity: 1;

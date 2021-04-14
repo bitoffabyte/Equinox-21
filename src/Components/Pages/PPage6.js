@@ -35,16 +35,25 @@ const PPage6 = ({ fadeIn, reff }) => {
 					<h1>TRACKS</h1>
 					<div className='organizers'>
 						<div className='cardd'>
-							<Card imgs={img} c='Open Innovation' />
+							<Card
+								imgs={img7}
+								c={
+									<>
+										AI <br />
+										and
+										<br /> Data Science
+									</>
+								}
+							/>
+							<Card imgs={img3} c='AR and VR' />
 							<Card imgs={img2} c='Blockchain' />
-							<Card imgs={img3} c='AR - VR' />
-							<Card imgs={img4} c='robotics' />
+							<Card imgs={img5} c='Defence' />
 						</div>
 
-						<div className='cardd'>
-							<Card imgs={img5} c='defence' />
-							<Card imgs={img6} c='healthcare' />
-							<Card imgs={img7} c='ml/ai' />
+						<div className='cardd stupid'>
+							<Card imgs={img6} c='Health and Safety' />
+							<Card imgs={img4} c='Robotics' />
+							<Card imgs={img} c='Open Innovation' />
 						</div>
 					</div>
 				</div>
@@ -67,13 +76,22 @@ const PPage6 = ({ fadeIn, reff }) => {
 								selectedItem={page}
 								emulateTouch={false}
 								swipeable={false}>
+								<Card
+									imgs={img7}
+									c={
+										<>
+											AI <br />
+											and
+											<br /> Data Science
+										</>
+									}
+								/>
 								<Card imgs={img} c='Open Innovation' />
 								<Card imgs={img2} c='Blockchain' />
 								<Card imgs={img3} c='AR - VR' />
-								<Card imgs={img4} c='robotics' />
-								<Card imgs={img5} c='defence' />
-								<Card imgs={img6} c='healthcare' />
-								<Card imgs={img7} c='ml/ai' />
+								<Card imgs={img4} c='Robotics' />
+								<Card imgs={img5} c='Defence' />
+								<Card imgs={img6} c='Healthcare' />
 							</Carousel>
 							<div className='arrows aarrows'>
 								<img
@@ -89,7 +107,7 @@ const PPage6 = ({ fadeIn, reff }) => {
 								<img
 									src={arrow}
 									className={`arrow aarrow${
-										page == 6 ? 'dis' : ''
+										page == 7 ? ' dis' : ''
 									}`}
 									onClick={() => {
 										if (page != 7)

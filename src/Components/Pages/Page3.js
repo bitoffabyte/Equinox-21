@@ -7,7 +7,9 @@ const Page3 = ({ fadeIn, reff }) => {
 				<br />
 				<h1>PRIZES</h1>
 				<div className='prizesC'>
-					<p>To Be Announced</p>
+					<p className='aboutCont'>
+						Stay tuned for interstellar schwag and prizes!!
+					</p>
 				</div>
 			</div>
 		</div>

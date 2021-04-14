@@ -58,6 +58,9 @@
 	width: 100%;
 	justify-content: space-evenly;
 }
+.stupid {
+	width: 80%;
+}
 .card {
 	cursor: pointer;
 	display: none;
@@ -83,9 +86,8 @@
 	/* font-weight: 900; */
 	font-size: 2.5vw;
 	text-align: center;
-
 	color: #ffffff;
-	text-transform: capitalize !important;
+	/* text-transform: capitalize !important; */
 	margin-right: -2%;
 }
 @media screen and (max-width: 720px) {
@@ -105,7 +107,7 @@
 		padding: 5%;
 	}
 	.ssas {
-		width: 100%;
+		width: 80%;
 	}
 
 	.Page6Content h1 {
@@ -128,6 +130,14 @@
 	.carous {
 		height: 80%;
 		display: block;
+	}
+	.page6bg {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
 	}
 }
 
@@ -217,11 +227,15 @@
 	.ps {
 		font-size: 200%;
 	}
+	.ssas {
+		width: 60% !important;
+		height: auto;
+	}
 }
 .aarrow {
 	width: 10vw;
 }
 
 .cardd {
-	margin: 2% auto;
+	margin: 1% auto;
 }
