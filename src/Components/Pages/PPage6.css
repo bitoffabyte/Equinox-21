@@ -90,7 +90,7 @@
 	/* text-transform: capitalize !important; */
 	margin-right: -2%;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
 	.Page6Content {
 		width: 80vw;
 		height: 65vh;
