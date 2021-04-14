@@ -2,6 +2,7 @@
 	"name": "equinox-final-react",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://bitoffabyte.github.io/equinox-final-react",
 	"dependencies": {
 		"@material-ui/core": "^4.11.3",
 		"@testing-library/jest-dom": "^5.11.4",

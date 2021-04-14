@@ -17,6 +17,7 @@ import jb from '../../Assets/Sponsors/jetbrains.svg';
 import gfg from '../../Assets/Sponsors/GFG LOGO-1.png';
 import intb from '../../Assets/Sponsors/logo1.png';
 import codex from '../../Assets/Sponsors/codex.svg';
+import cos from '../../Assets/Sponsors/cos.svg';
 
 import test from '../../Assets/Sponsors/text-logo.svg';
 import wic from '../../Assets/Sponsors/wic_long_white.png';
@@ -112,7 +113,9 @@ const Page7 = ({ fadeIn, reff }) => {
 							<a href={links[9]} className='imgs' target='_blank'>
 								<img src={sa} className='imgs' />
 							</a>
+						</div>
 
+						<div className='line1'>
 							<a
 								href={links[10]}
 								className='imgs'
@@ -140,9 +143,6 @@ const Page7 = ({ fadeIn, reff }) => {
 								target='_blank'>
 								<img src={codex} className='imgs' />
 							</a>
-						</div>
-
-						<div className='line1'>
 							<a
 								href={links[14]}
 								className='imgs'
@@ -196,18 +196,24 @@ const Page7 = ({ fadeIn, reff }) => {
 								target='_blank'>
 								<img src={absr} className='imgs' />
 							</a>
+							<a
+								href={links[21]}
+								className='imgs'
+								target='_blank'>
+								<img src={cos} className='imgs' />
+							</a>
 						</div>
 					</Carousel>
 				</div>
 				<div className='arrows'>
 					<img
 						src={arrow}
-						className={`al arrow ${page == 1 ? 'dis' : ''}`}
+						className={`al arrow ${page == 0 ? 'dis' : ''}`}
 						onClick={() => updatePage(0)}
 					/>
 					<img
 						src={arrow}
-						className={`arrow ${page == 2 ? 'dis' : ''}`}
+						className={`arrow ${page == 1 ? 'dis' : ''}`}
 						onClick={() => updatePage(1)}
 					/>
 				</div>

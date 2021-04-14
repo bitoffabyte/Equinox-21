@@ -3,7 +3,7 @@
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	z-index: 1000;
 }
 .Page6Content {
@@ -178,6 +178,7 @@
 	box-shadow: 3px 1px 38px -12px #00000094;
 	border-radius: 28px;
 	backdrop-filter: blur(20px);
+	-webkit-backface-visibility: hidden;
 }
 
 .flip-card-back {
@@ -188,6 +189,8 @@
 	box-shadow: 3px 1px 38px -12px #00000094;
 	border-radius: 28px;
 	backdrop-filter: blur(20px);
+	-webkit-backface-visibility: hidden;
+	background-color: #9955bb;
 }
 
 @media screen and (max-width: 1200px) {
@@ -217,4 +220,8 @@
 }
 .aarrow {
 	width: 10vw;
+}
+
+.cardd {
+	margin: 2% auto;
 }

@@ -13,6 +13,7 @@ import { useState, useEffect, memo } from 'react';
 import MLH from './Components/MLH';
 import Bg from './Components/Bg';
 import PPage6 from './Components/Pages/PPage6';
+import Robo from './Components/Robo';
 function App() {
 	const [page2, updatePage2] = useState(1);
 	useEffect(() => {
@@ -46,6 +47,7 @@ function App() {
 				{/* <MouseTrails /> */}
 				<MLH />
 				<Bg />
+				<Robo />
 				<div
 					style={{
 						position: 'fixed',

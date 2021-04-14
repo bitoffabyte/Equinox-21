@@ -13,3 +13,7 @@ body,
 	src: local('Uni Sans Demo'),
 		url(./Assets/fonts/Uni_Sans_Heavy.ttf) format('truetype');
 }
+
+* {
+	scrollbar-width: none;
+}

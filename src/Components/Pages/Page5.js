@@ -165,7 +165,7 @@ const Page5 = ({ fadeIn, reff }) => {
 					<img
 						src={arrow}
 						style={{ transform: 'rotate(180deg)' }}
-						className='btn'
+						className={`btn ${page == 0 ? ' dis' : ''}`}
 						onClick={() =>
 							updatePage((prev) => {
 								if (prev == 0) {
@@ -178,7 +178,7 @@ const Page5 = ({ fadeIn, reff }) => {
 					/>
 					<img
 						src={arrow}
-						className='btn'
+						className={`btn ${page == 4 ? ' dis' : ''}`}
 						onClick={() =>
 							updatePage((prev) => {
 								if (prev == 4) {

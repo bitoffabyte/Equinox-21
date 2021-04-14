@@ -1,7 +1,4 @@
 import './PPage6.css';
-import ad from '../../Assets/ad.svg';
-import an from '../../Assets/an.svg';
-import v from '../../Assets/v.svg';
 import img from '../../Assets/oi.png';
 import img2 from '../../Assets/blo.png';
 import img3 from '../../Assets/ar.png';
@@ -43,8 +40,7 @@ const PPage6 = ({ fadeIn, reff }) => {
 							<Card imgs={img3} c='AR - VR' />
 							<Card imgs={img4} c='robotics' />
 						</div>
-						<br />
-						<br />
+
 						<div className='cardd'>
 							<Card imgs={img5} c='defence' />
 							<Card imgs={img6} c='healthcare' />
@@ -107,5 +103,4 @@ const PPage6 = ({ fadeIn, reff }) => {
 			</>
 		);
 };
-
 export default PPage6;
