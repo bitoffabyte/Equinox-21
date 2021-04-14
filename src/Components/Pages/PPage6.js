@@ -8,7 +8,7 @@ import img6 from '../../Assets/hel.png';
 import img7 from '../../Assets/aids.png';
 import arrow from '../../Assets/Arrow.svg';
 
-import { memo, useState } from 'react';
+import { useState } from 'react';
 import useWindowDimensions from '../../useDimensions';
 import { Carousel } from 'react-responsive-carousel';
 const Card = ({ imgs, c }) => {
@@ -75,6 +75,7 @@ const PPage6 = ({ fadeIn, reff }) => {
 								transitionTime={200}
 								selectedItem={page}
 								emulateTouch={false}
+								showThumbs={false}
 								swipeable={false}>
 								<Card
 									imgs={img7}

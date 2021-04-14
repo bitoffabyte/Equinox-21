@@ -86,4 +86,18 @@
 		color: #ffffff;
 		margin-top: 0%;
 	}
+	.dsa {
+		font-size: 100%;
+		text-align: justify;
+		line-height: 100% !important;
+		margin-top: 0;
+		font-family: 'acumin-pro' !important;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 2vw;
+		line-height: 2vw;
+		text-align: justify;
+
+		color: #ffffff;
+	}
 }

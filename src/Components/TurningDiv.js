@@ -1,4 +1,4 @@
-import React, { useEffect, useState, memo } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useScroll } from '../UseScroll';
 import Moon from './Moon';
 import Sun from './Sun';

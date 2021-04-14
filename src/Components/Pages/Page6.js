@@ -2,7 +2,6 @@
 import ad from '../../Assets/ad.svg';
 import an from '../../Assets/an.svg';
 import v from '../../Assets/v.svg';
-import { memo } from 'react';
 const Page6 = ({ fadeIn, reff }) => {
 	return (
 		<div className='page6bg' ref={reff}>

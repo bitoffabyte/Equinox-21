@@ -9,7 +9,7 @@ import Page4 from './Components/Pages/Page4';
 import Page5 from './Components/Pages/Page5';
 import Page6 from './Components/Pages/Page6';
 import Page7 from './Components/Pages/Page7';
-import { useState, useEffect, memo } from 'react';
+import { useState, useEffect } from 'react';
 import MLH from './Components/MLH';
 import Bg from './Components/Bg';
 import PPage6 from './Components/Pages/PPage6';
@@ -61,6 +61,7 @@ function App() {
 				</div>
 				<div className='mainDiv'>
 					<FullPage
+						duration={10000}
 						normalScrollElements='.carou'
 						beforeChange={({ from, to }) => {
 							updatePage2(to);

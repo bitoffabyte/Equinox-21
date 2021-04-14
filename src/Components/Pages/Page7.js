@@ -29,7 +29,7 @@ import vibe from '../../Assets/Sponsors/vibe.jpg';
 import absr from '../../Assets/Sponsors/absr.jpg';
 import arrow from '../../Assets/Arrow.svg';
 
-import { memo, useState } from 'react';
+import { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 const Page7 = ({ fadeIn, reff }) => {
 	const [page, updatePage] = useState(0);
@@ -65,6 +65,7 @@ const Page7 = ({ fadeIn, reff }) => {
 				<div className='sponsors '>
 					<Carousel
 						autoPlay={false}
+						showThumbs={false}
 						emulateTouch={true}
 						showIndicators={false}
 						showArrows={false}
@@ -199,7 +200,7 @@ const Page7 = ({ fadeIn, reff }) => {
 							</a>
 							<a
 								href={links[21]}
-								className='imgs'
+								className='imgs qwsd'
 								target='_blank'>
 								<img src={absr} className='imgs' />
 							</a>

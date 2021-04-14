@@ -128,6 +128,11 @@
 	z-index: 1000000;
 }
 
+.qwsd {
+	width: 6vw;
+	height: 9vh;
+}
+
 @media screen and (max-width: 720px) {
 	.Page7Content {
 		width: 80vw;

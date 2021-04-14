@@ -20,7 +20,6 @@ export const useScroll = () => {
 		const totalDocScrollLength = docHeight - winHeight;
 		scrollPostion = Math.floor((scrollTop / totalDocScrollLength) * 100);
 		updateScroll(scrollPostion);
-		console.log(scrollPostion);
 	};
 	useEffect(() => {
 		function watchScroll() {

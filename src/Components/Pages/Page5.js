@@ -1,6 +1,6 @@
 import './Page5.css';
 import useDimension from '../../useDimensions';
-import { useState, memo } from 'react';
+import { useState } from 'react';
 import arrow from '../../Assets/Arrow.svg';
 import Accordion from '../Accordion';
 import { FAQ as data } from './faq-data';
@@ -46,6 +46,7 @@ const Page5 = ({ fadeIn, reff }) => {
 				<h1>FAQs</h1>
 
 				<Carousel
+					showThumbs={false}
 					autoPlay={false}
 					emulateTouch={true}
 					showIndicators={false}

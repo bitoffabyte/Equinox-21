@@ -1,5 +1,4 @@
 import './Page3.css';
-import { memo } from 'react';
 const Page3 = ({ fadeIn, reff }) => {
 	return (
 		<div className='page3bg' ref={reff}>
@@ -7,7 +6,7 @@ const Page3 = ({ fadeIn, reff }) => {
 				<br />
 				<h1>PRIZES</h1>
 				<div className='prizesC'>
-					<p className='aboutCont'>
+					<p className='aboutCont dsa'>
 						Stay tuned for interstellar schwag and prizes!!
 					</p>
 				</div>

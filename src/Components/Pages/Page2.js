@@ -1,5 +1,4 @@
 import './Page2.css';
-import { memo } from 'react';
 
 const Page2 = ({ fadeIn, reff }) => {
 	return (
