@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/equinox-final-react/static/css/main.a2fdb1cb.chunk.css",
-    "main.js": "/equinox-final-react/static/js/main.13d6880b.chunk.js",
-    "main.js.map": "/equinox-final-react/static/js/main.13d6880b.chunk.js.map",
+    "main.css": "/equinox-final-react/static/css/main.4e6601ee.chunk.css",
+    "main.js": "/equinox-final-react/static/js/main.43d5dbdc.chunk.js",
+    "main.js.map": "/equinox-final-react/static/js/main.43d5dbdc.chunk.js.map",
     "runtime-main.js": "/equinox-final-react/static/js/runtime-main.86c67bdf.js",
     "runtime-main.js.map": "/equinox-final-react/static/js/runtime-main.86c67bdf.js.map",
     "static/css/2.4ce9e501.chunk.css": "/equinox-final-react/static/css/2.4ce9e501.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.9f386732.chunk.js.map": "/equinox-final-react/static/js/2.9f386732.chunk.js.map",
     "index.html": "/equinox-final-react/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/equinox-final-react/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.a2fdb1cb.chunk.css.map": "/equinox-final-react/static/css/main.a2fdb1cb.chunk.css.map",
+    "static/css/main.4e6601ee.chunk.css.map": "/equinox-final-react/static/css/main.4e6601ee.chunk.css.map",
     "static/js/2.9f386732.chunk.js.LICENSE.txt": "/equinox-final-react/static/js/2.9f386732.chunk.js.LICENSE.txt",
     "static/media/@.f866be5b.svg": "/equinox-final-react/static/media/@.f866be5b.svg",
     "static/media/Amulya.b2dcd567.svg": "/equinox-final-react/static/media/Amulya.b2dcd567.svg",
@@ -38,11 +38,12 @@
     "static/media/blo.370cc02f.png": "/equinox-final-react/static/media/blo.370cc02f.png",
     "static/media/cn.968a64fc.svg": "/equinox-final-react/static/media/cn.968a64fc.svg",
     "static/media/codex.fd11d75a.svg": "/equinox-final-react/static/media/codex.fd11d75a.svg",
+    "static/media/cos.536c058d.svg": "/equinox-final-react/static/media/cos.536c058d.svg",
     "static/media/def.91013587.png": "/equinox-final-react/static/media/def.91013587.png",
     "static/media/dev.62ec526d.svg": "/equinox-final-react/static/media/dev.62ec526d.svg",
     "static/media/do.04bcc6ea.svg": "/equinox-final-react/static/media/do.04bcc6ea.svg",
     "static/media/fr.83e06b36.svg": "/equinox-final-react/static/media/fr.83e06b36.svg",
-    "static/media/hel.dee7dd96.png": "/equinox-final-react/static/media/hel.dee7dd96.png",
+    "static/media/hel.52e76587.png": "/equinox-final-react/static/media/hel.52e76587.png",
     "static/media/iba.3aef0dd4.webp": "/equinox-final-react/static/media/iba.3aef0dd4.webp",
     "static/media/jetbrains.ec887f6f.svg": "/equinox-final-react/static/media/jetbrains.ec887f6f.svg",
     "static/media/logo1.ab1ef977.png": "/equinox-final-react/static/media/logo1.ab1ef977.png",
@@ -51,6 +52,7 @@
     "static/media/po.74a5d1a1.svg": "/equinox-final-react/static/media/po.74a5d1a1.svg",
     "static/media/qwe.5bcabb48.png": "/equinox-final-react/static/media/qwe.5bcabb48.png",
     "static/media/rename.0cf4c9ad.png": "/equinox-final-react/static/media/rename.0cf4c9ad.png",
+    "static/media/robovitics.9d028bdc.png": "/equinox-final-react/static/media/robovitics.9d028bdc.png",
     "static/media/sashi.963227ef.svg": "/equinox-final-react/static/media/sashi.963227ef.svg",
     "static/media/sketch-logo-light.81ecdf9f.svg": "/equinox-final-react/static/media/sketch-logo-light.81ecdf9f.svg",
     "static/media/task.0f1da1c0.svg": "/equinox-final-react/static/media/task.0f1da1c0.svg",
@@ -66,7 +68,7 @@
     "static/js/runtime-main.86c67bdf.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.9f386732.chunk.js",
-    "static/css/main.a2fdb1cb.chunk.css",
-    "static/js/main.13d6880b.chunk.js"
+    "static/css/main.4e6601ee.chunk.css",
+    "static/js/main.43d5dbdc.chunk.js"
   ]
 }
