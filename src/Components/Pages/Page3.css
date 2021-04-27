@@ -7,13 +7,9 @@
 	z-index: 1000;
 }
 .Page3Content {
-	width: 50vw;
-	height: 60vh;
+	width: 90vw;
+	height: 80vh;
 
-	background: rgba(255, 255, 255, 0.027);
-	box-shadow: 3px 1px 38px -12px #00000094;
-	border-radius: 28px;
-	backdrop-filter: blur(50px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,27 +42,36 @@
 	transition: all 500ms;
 	transition: all 500ms;
 }
-.prizesC {
-	height: 80%;
+.prizes {
+	width: 100%;
+	height: 80vh;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 }
-.prizesC p {
-	font-family: Uni Sans Demo;
-	font-style: normal;
-	font-size: 3vw;
+.carous {
+	width: 80%;
+	height: 100%;
+}
+.cardJ {
+	position: relative;
+	z-index: 10000;
+	margin: 0 2%;
+}
+.lllk {
+	display: inline-block;
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.carous > * {
 	text-align: center;
-	color: #ffffff;
-	margin-top: -20%;
-	font-family: 'acumin-pro';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 2vw;
-	line-height: 2vw;
-	text-align: justify;
-
-	color: #ffffff;
+}
+.arr {
+	cursor: pointer;
 }
 @media screen and (max-width: 720px) {
 	.Page3Content {
@@ -99,5 +104,11 @@
 		text-align: justify;
 
 		color: #ffffff;
+	}
+	.prizee {
+		position: relative;
+		z-index: 10000;
+		margin: 0 2%;
+		height: 70%;
 	}
 }

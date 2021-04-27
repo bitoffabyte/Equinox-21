@@ -27,6 +27,7 @@
 	border-radius: 28px !important;
 	backdrop-filter: blur(50px) !important;
 	-webkit-backdrop-filter: blur(20px);
+	min-height: 500px;
 }
 .fadeIn {
 	opacity: 1;

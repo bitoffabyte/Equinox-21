@@ -18,6 +18,7 @@ import gfg from '../../Assets/Sponsors/GFG LOGO-1.png';
 import intb from '../../Assets/Sponsors/logo1.png';
 import codex from '../../Assets/Sponsors/codex.svg';
 import cos from '../../Assets/Sponsors/cos.svg';
+import vb from '../../Assets/Sponsors/vb.png';
 
 import test from '../../Assets/Sponsors/text-logo.svg';
 import wic from '../../Assets/Sponsors/wic_long_white.png';
@@ -57,6 +58,7 @@ const Page7 = ({ fadeIn, reff }) => {
 		'https://vibestore.in',
 		'http://absr.in/web20/default.html',
 		'https://cosmosindia.network/',
+		'https://www.virtualbadge.io/',
 	];
 	return (
 		<div className='page7bg' ref={reff}>
@@ -204,6 +206,12 @@ const Page7 = ({ fadeIn, reff }) => {
 								className='imgs qwsd'
 								target='_blank'>
 								<img src={absr} className='imgs' />
+							</a>
+							<a
+								href={links[23]}
+								className='imgs'
+								target='_blank'>
+								<img src={vb} className='imgs' />
 							</a>
 						</div>
 					</Carousel>

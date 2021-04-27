@@ -30,6 +30,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: space-around;
+	min-height: 500px;
 }
 .Page2Content h1 {
 	font-family: Uni Sans Demo;

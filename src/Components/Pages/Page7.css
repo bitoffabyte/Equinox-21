@@ -23,6 +23,7 @@
 	box-shadow: 3px 1px 38px -12px #00000094;
 	border-radius: 28px;
 	backdrop-filter: blur(50px);
+	min-height: 650px;
 }
 .fadeIn {
 	opacity: 1;
@@ -137,6 +138,7 @@
 	.Page7Content {
 		width: 80vw;
 		height: 65vh;
+		min-height: 65vh;
 		flex-direction: column;
 	}
 	.imgs {
