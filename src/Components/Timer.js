@@ -1,4 +1,4 @@
-import { useEffect, useState, memo } from 'react';
+import { useEffect, useState } from 'react';
 import './timer.css';
 const Timer = () => {
 	const [beep, updateBeep] = useState({
