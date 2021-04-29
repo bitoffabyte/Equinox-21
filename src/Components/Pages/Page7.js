@@ -28,6 +28,8 @@ import ya from '../../Assets/Sponsors/YAY_Logo1.png';
 import iba from '../../Assets/Sponsors/iba.webp';
 import vibe from '../../Assets/Sponsors/vibe.jpg';
 import absr from '../../Assets/Sponsors/absr.jpg';
+import k from '../../Assets/Sponsors/kryp.png';
+import tk from '../../Assets/Sponsors/tk.png';
 import arrow from '../../Assets/Arrow.svg';
 
 import { useState } from 'react';
@@ -59,6 +61,8 @@ const Page7 = ({ fadeIn, reff }) => {
 		'http://absr.in/web20/default.html',
 		'https://cosmosindia.network/',
 		'https://www.virtualbadge.io/',
+		'https://www.letskrypto.com/',
+		'https://trikon.tech/',
 	];
 	return (
 		<div className='page7bg' ref={reff}>
@@ -116,6 +120,19 @@ const Page7 = ({ fadeIn, reff }) => {
 
 							<a href={links[9]} className='imgs' target='_blank'>
 								<img src={sa} className='imgs' />
+							</a>
+							<a
+								href={links[24]}
+								className='imgs lklk'
+								target='_blank'>
+								<img src={k} className='imgs' />
+							</a>
+							<a
+								href={links[25]}
+								className='imgs lklk'
+								style={{ margin: '2%' }}
+								target='_blank'>
+								<img src={tk} className='imgs' />
 							</a>
 						</div>
 
@@ -203,13 +220,13 @@ const Page7 = ({ fadeIn, reff }) => {
 							</a>
 							<a
 								href={links[21]}
-								className='imgs qwsd'
+								className='imgs qwsd lklk'
 								target='_blank'>
 								<img src={absr} className='imgs' />
 							</a>
 							<a
 								href={links[23]}
-								className='imgs'
+								className='imgs lklk'
 								target='_blank'>
 								<img src={vb} className='imgs' />
 							</a>

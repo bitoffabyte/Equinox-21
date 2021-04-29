@@ -152,9 +152,6 @@
 	.line5 {
 		width: 80%;
 	}
-	.jb {
-		width: 7vh;
-	}
 	.sponsors {
 		width: 100%;
 	}
@@ -164,5 +161,16 @@
 	}
 	.arrow {
 		width: 10%;
+		position: relative;
+		z-index: 10000;
+	}
+	.lklk {
+		width: 8vh;
+	}
+	.jb {
+		height: 7vh;
+	}
+	.arrows {
+		margin-top: 5%;
 	}
 }

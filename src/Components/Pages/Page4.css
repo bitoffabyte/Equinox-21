@@ -77,6 +77,13 @@
 	color: #ffffff;
 	text-transform: capitalize !important;
 }
+.boldd {
+	font-weight: 1000 !important;
+}
+.p2 {
+	font-size: 1vw !important;
+	margin: 0 10%;
+}
 @media screen and (max-width: 720px) {
 	.Page4Content {
 		width: 80vw;
@@ -104,4 +111,10 @@
 	.Page4Content h1 {
 		font-size: 8vh;
 	}
+}
+
+.bor {
+	border-color: white;
+	border-width: 500px;
+	border: 5px solid #ffffff;
 }

@@ -7,11 +7,13 @@ const Timer = () => {
 		m: '00',
 		s: '00',
 	});
+	const [now, setNow] = useState(null);
+	const [future, setFuture] = useState(null);
 
 	useEffect(() => {
 		const updateTimer = () => {
-			let future = Date.parse('April 30, 2021 21:00:00');
-			let now = new Date();
+			setFuture(Date.parse('April 30, 2021 21:00:00'));
+			setNow(new Date());
 			let diff = future - now;
 			let days = Math.floor(diff / (1000 * 60 * 60 * 24));
 			let hours = Math.floor(diff / (1000 * 60 * 60));
@@ -47,12 +49,14 @@ const Timer = () => {
 		return () => {
 			clearInterval(s, 1000);
 		};
-	}, []);
-	return (
-		<div className='tim'>
-			<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
-		</div>
-	);
+	}, [future, now, beep]);
+	if (future > now)
+		return (
+			<div className='tim'>
+				<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
+			</div>
+		);
+	else return <p className='trtr'>Hack Started!</p>;
 };
 
 export default Timer;

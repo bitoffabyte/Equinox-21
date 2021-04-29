@@ -83,7 +83,7 @@ const Page1 = ({ fadeIn, reff }) => {
 							}}></i>
 					</div>
 					<p className={`contact ${show ? 'showContact' : ''}`}>
-						Contact: +91 98980 56388
+						Contact: +91 70007 95422
 					</p>
 				</div>
 			</div>
