@@ -12,6 +12,7 @@ import Tilt from 'react-parallax-tilt';
 
 const Page1 = ({ fadeIn, reff }) => {
 	const [show, updateShow] = useState(false);
+	const [over, setOver] = useState(false);
 
 	return (
 		// <Tilt glareEnable={true} glareMaxOpacity={1} glareColor='#ffffff'>
@@ -25,19 +26,27 @@ const Page1 = ({ fadeIn, reff }) => {
 					/>
 				</div>
 				<div className='right'>
-					<p className='dates'>30 April - 2 May</p>
-					<Timer />
+					{over ? (
+						<>
+							<p className='dates'>Hack ends in</p>
+						</>
+					) : (
+						<p className='dates'>30 April - 2 May</p>
+					)}
+					<Timer setOver={setOver} />
 					<br />
-					<div
-						className='regNow'
-						onClick={() =>
-							window.open(
-								'https://equinoxhack.typeform.com/to/DKsjL0Il',
-								'_blank'
-							)
-						}>
-						Register Now
-					</div>
+					{!over ? (
+						<div
+							className='regNow'
+							onClick={() =>
+								window.open(
+									'https://equinoxhack.typeform.com/to/DKsjL0Il',
+									'_blank'
+								)
+							}>
+							Register Now
+						</div>
+					) : null}
 					<br />
 					<div className='links'>
 						<i

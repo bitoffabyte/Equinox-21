@@ -109,18 +109,18 @@ const Page7 = ({ fadeIn, reff }) => {
 							<a href={links[6]} className='imgs' target='_blank'>
 								<img src={jb} className='imgs jb' />
 							</a>
-
-							<a href={links[7]} className='imgs' target='_blank'>
-								<img src={voi} className='imgs' />
+							<a
+								href={links[25]}
+								className='imgs lklk'
+								style={{ margin: '2%' }}
+								target='_blank'>
+								<img src={tk} className='imgs' />
 							</a>
 
 							<a href={links[8]} className='imgs' target='_blank'>
 								<img src={tas} className='imgs' />
 							</a>
 
-							<a href={links[9]} className='imgs' target='_blank'>
-								<img src={sa} className='imgs' />
-							</a>
 							<a
 								href={links[24]}
 								className='imgs lklk'
@@ -128,11 +128,13 @@ const Page7 = ({ fadeIn, reff }) => {
 								<img src={k} className='imgs' />
 							</a>
 							<a
-								href={links[25]}
-								className='imgs lklk'
-								style={{ margin: '2%' }}
+								href={links[9]}
+								className='imgs krp'
 								target='_blank'>
-								<img src={tk} className='imgs' />
+								<img src={sa} className='imgs' />
+							</a>
+							<a href={links[7]} className='imgs' target='_blank'>
+								<img src={voi} className='imgs' />
 							</a>
 						</div>
 

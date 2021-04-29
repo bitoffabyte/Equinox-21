@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './timer.css';
-const Timer = () => {
+const Timer = ({ setOver }) => {
 	const [beep, updateBeep] = useState({
 		d: '00',
 		h: '00',
@@ -9,12 +9,17 @@ const Timer = () => {
 	});
 	const [now, setNow] = useState(null);
 	const [future, setFuture] = useState(null);
+	const [future2, setFuture2] = useState(null);
 
 	useEffect(() => {
+		// 2 may 630
 		const updateTimer = () => {
 			setFuture(Date.parse('April 30, 2021 21:00:00'));
+			setFuture2(Date.parse('May 02, 2021 18:30:00'));
 			setNow(new Date());
-			let diff = future - now;
+			let diff = null;
+			if (future > now) diff = future - now;
+			else diff = future2 - now;
 			let days = Math.floor(diff / (1000 * 60 * 60 * 24));
 			let hours = Math.floor(diff / (1000 * 60 * 60));
 			let mins = Math.floor(diff / (1000 * 60));
@@ -50,13 +55,20 @@ const Timer = () => {
 			clearInterval(s, 1000);
 		};
 	}, [future, now, beep]);
-	if (future > now)
+	if (future > now) {
+		setOver(false);
+
 		return (
 			<div className='tim'>
 				<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
 			</div>
 		);
-	else return <p className='trtr'>Hack Started!</p>;
+	} else {
+		setOver(true);
+		return (
+			<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
+		);
+	}
 };
 
 export default Timer;

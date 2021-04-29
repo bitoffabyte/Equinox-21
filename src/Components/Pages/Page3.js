@@ -35,6 +35,7 @@ const Card1 = ({ imgs, children, b }) => {
 				<div className='flip-cardd-back'>
 					<div className='backc'>
 						<div>Prize worth 25,000 INR</div>
+						<div>1000 KRPT from Krypto </div>
 						<div>Schwag Bundle</div>
 						<div>Wolfram Award</div>
 						<div>Clerky’s Company Lifetime Package</div>
@@ -61,6 +62,8 @@ const Card2 = ({ imgs, children, b }) => {
 				<div className='flip-cardd-back'>
 					<div className='backc'>
 						<div>Prize worth 15,000 INR</div>
+						<div>1000 KRPT from Krypto </div>
+
 						<div>Schwag Bundle</div>
 						<div>Wolfram Award</div>
 						<div>
@@ -85,6 +88,8 @@ const Card3 = ({ imgs, children, b }) => {
 				<div className='flip-cardd-back'>
 					<div className='backc'>
 						<div>Prize worth 10,000 INR</div>
+						<div>1000 KRPT from Krypto </div>
+
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award</div>
 						<div>
@@ -110,6 +115,7 @@ const Card4 = ({ imgs, children, b }) => {
 					<p className='lk'>Open Innovation</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
+						<div>USDT wroth 1000 INR</div>
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award</div>
 						<div>1-year subscription to egghead.io </div>
@@ -178,6 +184,8 @@ const Card7 = ({ imgs, children, b }) => {
 					<p className='lk'>Robotics</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
+						<div>USDT wroth 1000 INR</div>
+
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
@@ -201,6 +209,8 @@ const Card8 = ({ imgs, children, b }) => {
 					<p className='lk'>Defence</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
+						<div>USDT wroth 1000 INR</div>
+
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
@@ -221,9 +231,11 @@ const Card9 = ({ imgs, children, b }) => {
 			<div className='flip-cardd-inner'>
 				<div className='flip-cardd-front'>{children}</div>
 				<div className='flip-cardd-back'>
-					<p className='lk'>Healthcare</p>
+					<p className='lk'>Health and Safety</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
+						<div>USDT wroth 1000 INR</div>
+
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
@@ -274,6 +286,7 @@ const Card11 = ({ imgs, children, b }) => {
 					<p className='lk'>Best Pitch</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
+						<div>USDT wroth 1000 INR</div>
 
 						<div>Schwags Bundle</div>
 						<div>Wolfram Award </div>

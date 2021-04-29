@@ -1,6 +1,7 @@
 .timer {
 	width: 100%;
 	font-size: 3.5vw;
+	text-align: center;
 }
 .tim {
 	width: 100%;
@@ -13,13 +14,7 @@
 .tim p {
 	text-align: center;
 }
-.trtr {
-	font-size: 3.5vw;
-	font-family: 'Uni Sans Demo';
-	font-style: normal;
-	font-weight: normal;
-	color: white;
-}
+
 @media screen and (max-width: 720px) {
 	.timer {
 		font-size: 10vw;

@@ -133,6 +133,9 @@
 	width: 6vw;
 	height: 9vh;
 }
+.krp {
+	margin-bottom: 3%;
+}
 
 @media screen and (max-width: 720px) {
 	.Page7Content {
