@@ -1,2 +1,3 @@
-# Equinox Website
-https://bitoffabyte.github.io/equinox-final-react/
+# Equinox 21
+Website for Equinox 2021
+<br/>
