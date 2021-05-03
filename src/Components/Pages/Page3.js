@@ -38,7 +38,6 @@ const Card1 = ({ imgs, children, b }) => {
 						<div>1000 KRPT from Krypto </div>
 						<div>Schwag Bundle</div>
 						<div>Wolfram Award</div>
-						<div>Clerky’s Company Lifetime Package</div>
 						<div>
 							Access to Online Learning Course on GeeksforGeeks
 						</div>
@@ -90,7 +89,7 @@ const Card3 = ({ imgs, children, b }) => {
 						<div>Prize worth 10,000 INR</div>
 						<div>1000 KRPT from Krypto </div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award</div>
 						<div>
 							Access to Online Learning Course on GeeksforGeeks
@@ -115,8 +114,8 @@ const Card4 = ({ imgs, children, b }) => {
 					<p className='lk'>Open Innovation</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
-						<div>USDT wroth 1000 INR</div>
-						<div>Schwags Bundle</div>
+						<div>USDT worth 1000 INR</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award</div>
 						<div>1-year subscription to egghead.io </div>
 						<div>1-year Pro subscription to TheCodex </div>
@@ -136,7 +135,7 @@ const Card5 = ({ imgs, children, b }) => {
 					<p className='lk'>Blockchain</p>
 					<div className='backc'>
 						<div>100 USD on behalf of Cosmos India</div>
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award</div>
 						<div>
 							Access to Online Learning Course on GeeksforGeeks
@@ -165,7 +164,7 @@ const Card6 = ({ imgs, children, b }) => {
 							3 months of licensed access to echoAR Business Tier
 							Plan Chance to get featured on echoAR’s Inspiration
 						</div>
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>And many more……</div>
 					</div>
@@ -184,9 +183,9 @@ const Card7 = ({ imgs, children, b }) => {
 					<p className='lk'>Robotics</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
-						<div>USDT wroth 1000 INR</div>
+						<div>USDT worth 1000 INR</div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
 						<div>
@@ -209,9 +208,9 @@ const Card8 = ({ imgs, children, b }) => {
 					<p className='lk'>Defence</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
-						<div>USDT wroth 1000 INR</div>
+						<div>USDT worth 1000 INR</div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
 						<div>
@@ -234,9 +233,9 @@ const Card9 = ({ imgs, children, b }) => {
 					<p className='lk'>Health and Safety</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
-						<div>USDT wroth 1000 INR</div>
+						<div>USDT worth 1000 INR</div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>1-year Pro subscription to TheCodex</div>
 						<div>
@@ -260,7 +259,7 @@ const Card10 = ({ imgs, children, b }) => {
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>
 							Opportunity of a paid internship at Internshala
@@ -286,9 +285,9 @@ const Card11 = ({ imgs, children, b }) => {
 					<p className='lk'>Best Pitch</p>
 					<div className='backc'>
 						<div>Prize worth 2,000 INR</div>
-						<div>USDT wroth 1000 INR</div>
+						<div>USDT worth 1000 INR</div>
 
-						<div>Schwags Bundle</div>
+						<div>Schwag Bundles</div>
 						<div>Wolfram Award </div>
 						<div>
 							1-year of licensed access to Axure RP Team Edition{' '}

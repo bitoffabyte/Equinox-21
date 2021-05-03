@@ -15,7 +15,6 @@ const Page1 = ({ fadeIn, reff }) => {
 	const [over, setOver] = useState(false);
 
 	return (
-		// <Tilt glareEnable={true} glareMaxOpacity={1} glareColor='#ffffff'>
 		<div className='page1bg' ref={reff}>
 			<div className={`Page1Content ${fadeIn ? 'fadeIn' : ''} `}>
 				<div className='left'>
@@ -27,9 +26,7 @@ const Page1 = ({ fadeIn, reff }) => {
 				</div>
 				<div className='right'>
 					{over ? (
-						<>
-							<p className='dates'>Hack ends in</p>
-						</>
+						<>{/* <p className='dates'>Hack ends in</p> */}</>
 					) : (
 						<p className='dates'>30 April - 2 May</p>
 					)}

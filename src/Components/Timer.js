@@ -66,7 +66,8 @@ const Timer = ({ setOver }) => {
 	} else {
 		setOver(true);
 		return (
-			<p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
+			// <p className='timer'>{`${beep.d} : ${beep.h} : ${beep.m} : ${beep.s}`}</p>
+			<p className='timer'>Hack Ended</p>
 		);
 	}
 };
